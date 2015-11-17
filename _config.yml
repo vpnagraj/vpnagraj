@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            VP Nagraj
-locale:           en_US
-url: 
+title: VP Nagraj
+locale: en_US
+url: http://vpnagraj.github.io/ 
 
 
 # Jekyll configuration
