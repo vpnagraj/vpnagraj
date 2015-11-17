@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title:            Site Title
+title:            VP Nagraj
 locale:           en_US
-url:
+url: //vpnagraj.github.io
 
 
 # Jekyll configuration
@@ -26,10 +26,10 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: VP Nagraj
   avatar: bio-photo.jpg
   bio: "Describe your self."
-  email:
+  email: vpnagraj@virginia.edu
   disqus-shortname:
   twitter: #username
   facebook: #username
