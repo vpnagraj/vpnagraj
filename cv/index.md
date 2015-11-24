@@ -19,8 +19,6 @@ share: false
 
 *University of Virginia*
 
-*1350 Jefferson Park Avenue P.O. Box 800722, Charlottesville, VA 22908*
-
 *434-924-5464*
 
 *vpnagraj@virginia.edu*
@@ -33,7 +31,7 @@ I am a Research Data Analyst at the University of Virginia's Claude Moore Health
 ###EDUCATION###
 B.A. English & Art History — Univerisity of Virginia (Charlottesville, VA)
 
-###EXPERIENCE
+###EXPERIENCE###
 
 2015-Present Research Data Analyst (Claude Moore Health Sciences Library - University of Virginia)
 
@@ -53,20 +51,33 @@ B.A. English & Art History — Univerisity of Virginia (Charlottesville, VA)
 
 2013 - Contributor to Neatline CSV Importer Omeka plugin (https://github.com/scholarslab/NeatlineCsvImport)
 
-###RESEARCH INTERESTS###
-Data Analysis // Data Visualization // Web Services // Teaching
-
-###FUNDING###
-
-??? NLM Grant ???
+###PROFESSIONAL INTERESTS###
+Data Analysis // Data Visualization // Web Services // Teaching // Bibliometrics
 
 ###PUBLICATIONS###
 
 Exit as strategy ...
 
-JMLA column
+	JMLA column 
+
+	ANALYZING LIBRARY SERVICES USING CUSTOMER RELATIONSHIP MANAGEMENT DATA AND R PROGRAMMING
+	Submitted by V. P. Nagraj; Megan S. Nunemaker, MSLS; University of Virginia
+
+	Enhancing library impact through technology. (2015). Journal of the Medical Library Association : JMLA, 103(4), 222–231. http://doi.org/10.3163/1536-5050.103.4.015
 
 A Mission Focused Approach to Liaison Services Data Collection MAC MLA Conference Paper
+http://macmla.libguides.com/2015papers
+	Title: A Mission Focused Approach to Liaison Services Data Collection (view slides)
+
+	Author(s): Bart Ragon, MLIS; Megan Nunemaker, MLIS; VP Nagraj
+
+	Abstract:
+
+	Objectives: Health sciences libraries support organizational missions related to clinical care, research, education, and outreach. The University of Virginia Health Sciences Library developed a Customer Relationship Management (CRM) system allowing services to be tracked to the four core missions. This paper will discuss the process of migrating to the CRM and the benefits gained from new data mining capabilities.
+
+	Methods: During the fall of 2013 a review of CRM software was conducted by the library to determine the best solution for gathering and reporting statistics. A functional requirements list was created to assist in software evaluation and included criteria like the ability to capture liaison activities, linking service interactions to the four core missions, report generation, and ease of use. After a 6 months pilot period descriptive statistics were generated using SPSS for individual liaisons, departments, and the library as a whole. The system was then re-evaluated for functionality and adjustments were made based on user feedback and the need for data standardization. Once this was achieved, generation of descriptive statistics was migrated to the R programming language to increase the ability to produce on demand reports.
+
+###POSTERS###
 
 ###PRESENTATIONS###
 
