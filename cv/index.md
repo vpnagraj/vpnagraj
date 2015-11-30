@@ -87,6 +87,26 @@ Sentiment Analysis With R
 
 ###TEACHING###
 
+**Reproducible Reporting: Generating Dynamic Documents with R+RStudio** 
+
+Location: Charlottesville VA 
+
+Date: November 2015
+
+_Teaching Assistant_
+
+[http://bioconnector.org/workshops/ws-r-repres/](http://bioconnector.org/workshops/ws-r-repres/)
+
+> Contemporary life science is plagued by reproducibility issues. This workshop covers some of the barriers to reproducible research and how to start to address some of those problems during the data management and analysis phases of the research life cycle. In this workshop we will cover using R and dynamic document generation with RMarkdown and RStudio to weave together reporting text with executable R code to automatically generate reports in the form of PDF, Word, or HTML documents.
+
+**Building ‘Shiny’ Web Applications In R**
+
+Location: Charlottesville, VA
+
+Date: October 2015
+
+> Shiny is a framework for developing interactive, web-based tools with R. This workshop will cover how to create a basic user interface, add reactive widgets and publish a Shiny app. No web development experience is required. Some familiarity with R will be helpful.
+
 **Workshop Series: Data Analysis, Manipulation, and Visualization with R** (Charlottesville VA - September 2015)
 
 *This is a three-part series. The first session will introduce participants to the R environment and a dataset to be used for the remainder of the series. The two latter sessions will introduce participants to advanced data manipulation and visualization, using the same dataset introduced in the first session. This three-part workshop series will use a consistent example dataset for answering questions and completing exercises across all three sessions, culminating with a "capstone" analysis that integrates all covered material.*
