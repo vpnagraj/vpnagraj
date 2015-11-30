@@ -58,24 +58,25 @@ Data Analysis // Data Visualization // Web Services // Teaching // Bibliometrics
 
 Exit as strategy ...
 
-	JMLA column 
+JMLA column 
 
-	ANALYZING LIBRARY SERVICES USING CUSTOMER RELATIONSHIP MANAGEMENT DATA AND R PROGRAMMING
-	Submitted by V. P. Nagraj; Megan S. Nunemaker, MSLS; University of Virginia
+ANALYZING LIBRARY SERVICES USING CUSTOMER RELATIONSHIP MANAGEMENT DATA AND R PROGRAMMING
+Submitted by V. P. Nagraj; Megan S. Nunemaker, MSLS; University of Virginia
 
-	Enhancing library impact through technology. (2015). Journal of the Medical Library Association : JMLA, 103(4), 222–231. http://doi.org/10.3163/1536-5050.103.4.015
+Enhancing library impact through technology. (2015). Journal of the Medical Library Association : JMLA, 103(4), 222–231. http://doi.org/10.3163/1536-5050.103.4.015
 
 A Mission Focused Approach to Liaison Services Data Collection MAC MLA Conference Paper
 http://macmla.libguides.com/2015papers
-	Title: A Mission Focused Approach to Liaison Services Data Collection (view slides)
 
-	Author(s): Bart Ragon, MLIS; Megan Nunemaker, MLIS; VP Nagraj
+Title: A Mission Focused Approach to Liaison Services Data Collection (view slides)
 
-	Abstract:
+Author(s): Bart Ragon, MLIS; Megan Nunemaker, MLIS; VP Nagraj
 
-	Objectives: Health sciences libraries support organizational missions related to clinical care, research, education, and outreach. The University of Virginia Health Sciences Library developed a Customer Relationship Management (CRM) system allowing services to be tracked to the four core missions. This paper will discuss the process of migrating to the CRM and the benefits gained from new data mining capabilities.
+Abstract:
 
-	Methods: During the fall of 2013 a review of CRM software was conducted by the library to determine the best solution for gathering and reporting statistics. A functional requirements list was created to assist in software evaluation and included criteria like the ability to capture liaison activities, linking service interactions to the four core missions, report generation, and ease of use. After a 6 months pilot period descriptive statistics were generated using SPSS for individual liaisons, departments, and the library as a whole. The system was then re-evaluated for functionality and adjustments were made based on user feedback and the need for data standardization. Once this was achieved, generation of descriptive statistics was migrated to the R programming language to increase the ability to produce on demand reports.
+Objectives: Health sciences libraries support organizational missions related to clinical care, research, education, and outreach. The University of Virginia Health Sciences Library developed a Customer Relationship Management (CRM) system allowing services to be tracked to the four core missions. This paper will discuss the process of migrating to the CRM and the benefits gained from new data mining capabilities.
+
+Methods: During the fall of 2013 a review of CRM software was conducted by the library to determine the best solution for gathering and reporting statistics. A functional requirements list was created to assist in software evaluation and included criteria like the ability to capture liaison activities, linking service interactions to the four core missions, report generation, and ease of use. After a 6 months pilot period descriptive statistics were generated using SPSS for individual liaisons, departments, and the library as a whole. The system was then re-evaluated for functionality and adjustments were made based on user feedback and the need for data standardization. Once this was achieved, generation of descriptive statistics was migrated to the R programming language to increase the ability to produce on demand reports.
 
 ###POSTERS###
 
@@ -107,39 +108,73 @@ Date: October 2015
 
 > Shiny is a framework for developing interactive, web-based tools with R. This workshop will cover how to create a basic user interface, add reactive widgets and publish a Shiny app. No web development experience is required. Some familiarity with R will be helpful.
 
-**Workshop Series: Data Analysis, Manipulation, and Visualization with R** (Charlottesville VA - September 2015)
+**Workshop Series: Data Analysis, Manipulation, and Visualization with R** 
 
-*This is a three-part series. The first session will introduce participants to the R environment and a dataset to be used for the remainder of the series. The two latter sessions will introduce participants to advanced data manipulation and visualization, using the same dataset introduced in the first session. This three-part workshop series will use a consistent example dataset for answering questions and completing exercises across all three sessions, culminating with a "capstone" analysis that integrates all covered material.*
+Location: Charlottesville VA 
 
-**Data Carpentry - James Madison University** (Harrisonburg VA - July 2015)
+Date: September 2015
 
-*This two-day workshop covers the analysis, computing and data management practices for genomics and bioinformatics research. Techniques taught include cloud storage (Amazon Web Services), data visualization (R Studio) and upstream analytic pipeline processes (BASH).*
+> This is a three-part series. The first session will introduce participants to the R environment and a dataset to be used for the remainder of the series. The two latter sessions will introduce participants to advanced data manipulation and visualization, using the same dataset introduced in the first session. This three-part workshop series will use a consistent example dataset for answering questions and completing exercises across all three sessions, culminating with a "capstone" analysis that integrates all covered material.
 
-**Introduction to Git – Data Science Institute Bootcamp** (Charlottesville VA - July 2015)
+**Data Carpentry - James Madison University** 
 
-*This workshops aims to teach basics of version control with Git, including setup, installation, file tracking and syncing with remote repositories.*
+Location: Harrisonburg VA
 
-**Drupal Series: What Is Drupal? - Claude Moore Health Sciences Library** (Charlottesville VA - April 2015)
+Date: July 2015
 
-*This course serves as an introduction to managing content with the Drupal framework. Topics to be covered include module installation, the entity structure, creating content types and adding fields. While no web development experience is required, basic familiarity with content authoring is recommended.*
+_Teaching Assistant_
 
-**Drupal Series: Managing Layout In Drupal - Claude Moore Health Sciences Library** (Charlottesville VA - April 2015)
+> This two-day workshop covers the analysis, computing and data management practices for genomics and bioinformatics research. Techniques taught include cloud storage (Amazon Web Services), data visualization (R Studio) and upstream analytic pipeline processes (BASH).
 
-*The usability of content depends in large part on its layout. This, the second course in the Drupal Series, will explore basic methods for controlling layout elements in Drupal. The class will introduce the fundamentals of the block structure, the context module, the display suite module and basic theming elements. Attendance in the first Drupal Series session and/or some familiarity with managing web content is recommended.*
+**Introduction to Git – Data Science Institute Bootcamp** 
 
-**Drupal Series: Building Functionality With Drupal - Claude Moore Health Sciences Library** (Charlottesville VA - April 2015)
+Location: Charlottesville VA
 
-*Drupal is designed to allow for automated actions based on events triggered by site users, content editors and the system itself. This workshop will cover site automation using the Rules module. Previous experience managing web content is recommended.*
+Date: July 2015
 
-**Drupal Series: Dynamic Content Delivery With Drupal - Claude Moore Health Sciences Library** (Charlottesville VA - April 2015)
+_Teaching Assistant_
 
-*One of the strongest features of Drupal is its ability to group and deliver disparate content side-by-side. This course will introduce the Views module, which provides an interface to create highly customizable associations of pages, images, users, taxonomy terms and other entities. Previous experience managing web content is recommended.*
+> This workshops aims to teach basics of version control with Git, including setup, installation, file tracking and syncing with remote repositories.
+
+**Drupal Series: What Is Drupal? - Claude Moore Health Sciences Library** 
+
+Location: Charlottesville VA 
+
+Date: April 2015
+
+> This course serves as an introduction to managing content with the Drupal framework. Topics to be covered include module installation, the entity structure, creating content types and adding fields. While no web development experience is required, basic familiarity with content authoring is recommended.
+
+**Drupal Series: Managing Layout In Drupal - Claude Moore Health Sciences Library** 
+
+Location: Charlottesville VA 
+
+Date: April 2015
+
+> The usability of content depends in large part on its layout. This, the second course in the Drupal Series, will explore basic methods for controlling layout elements in Drupal. The class will introduce the fundamentals of the block structure, the context module, the display suite module and basic theming elements. Attendance in the first Drupal Series session and/or some familiarity with managing web content is recommended.
+
+**Drupal Series: Building Functionality With Drupal - Claude Moore Health Sciences Library** 
+
+Location: Charlottesville VA 
+
+Date: April 2015
+
+> Drupal is designed to allow for automated actions based on events triggered by site users, content editors and the system itself. This workshop will cover site automation using the Rules module. Previous experience managing web content is recommended.
+
+**Drupal Series: Dynamic Content Delivery With Drupal - Claude Moore Health Sciences Library** 
+
+Location: Charlottesville VA 
+
+Date: April 2015
+
+> One of the strongest features of Drupal is its ability to group and deliver disparate content side-by-side. This course will introduce the Views module, which provides an interface to create highly customizable associations of pages, images, users, taxonomy terms and other entities. Previous experience managing web content is recommended.
 
 **Drupal Series: Data Manipulation With Drupal - Claude Moore Health Sciences Library** 
 
-(Charlottesville VA - April 2015)
+Location: Charlottesville VA 
 
-*Drupal implementations can extend well beyond simple content management — the framework has a number of contributed modules for importing, transforming and exporting data. This class will include demonstrations of the following modules: Feeds, Feeds XPath Parser and Views Data Export. Previous experience managing web content is recommended.*
+Date: April 2015
+
+> Drupal implementations can extend well beyond simple content management — the framework has a number of contributed modules for importing, transforming and exporting data. This class will include demonstrations of the following modules: Feeds, Feeds XPath Parser and Views Data Export. Previous experience managing web content is recommended.
 
 ###ADVANCED COURSEWORK AND EDUCATION###
 
