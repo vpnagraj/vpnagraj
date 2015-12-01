@@ -11,12 +11,15 @@ image:
 share: false
 ---
 
-# Apps
 
 ## GRUPO
+
 ### Gauging Research University Publication Output
+
 <a markdown="0" href="http://apps.bioconnector.virginia.edu/grupo" class="btn">GRUPO</a>
 
 ## EVMP
+
 ### Exploring Virginia Medical Practices
+
 <a markdown="0" href="http://apps.bioconnector.virginia.edu/evmp" class="btn">EVMP</a>
