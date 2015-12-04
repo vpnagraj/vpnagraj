@@ -5,9 +5,9 @@ tags: [cv, resume, experience]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: false
 image:
-  feature: sample-image-2.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: vpnagraj-banner-1.jpg
+  credit: vpnagraj
+  creditlink: http://vpnagraj.github.io
 share: false
 ---
 
