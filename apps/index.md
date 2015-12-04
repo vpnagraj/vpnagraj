@@ -23,3 +23,9 @@ share: false
 ### Exploring Virginia Medical Practices
 
 <a markdown="0" href="http://apps.bioconnector.virginia.edu/evmp" class="btn">EVMP</a>
+
+## VDDV
+
+### Virginia Dangerous Dog Viewer
+
+<a markdown="0" href="http://apps.bioconnector.virginia.edu/dogs" class="btn">VDDV</a>
