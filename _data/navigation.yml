@@ -1,13 +1,10 @@
 # Site navigation links
 
-- title: About
-  url: /about/
-
 - title: Notes
   url: /notes/
 
-- title: CV
-  url: /cv/
-
 - title: Apps
   url: /apps/
+
+- title: CV
+  url: /cv/

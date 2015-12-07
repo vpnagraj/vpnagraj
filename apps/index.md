@@ -5,9 +5,7 @@ tags: [apps, shiny]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: false
 image:
-  feature: vpnagrajbanner3.jpg
-  credit: N/A
-  creditlink: http://vpnagraj.github.io
+  feature: vpnagrajbanner5.jpg
 share: false
 ---
 

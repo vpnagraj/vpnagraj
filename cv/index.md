@@ -4,10 +4,7 @@ title: Curriculum Vitae
 tags: [cv, resume, experience]
 modified: 2014-08-08T20:53:07.573882-04:00
 comments: false
-image:
-  feature: vpnagraj-banner-1.jpg
-  credit: vpnagraj
-  creditlink: http://vpnagraj.github.io
+comments: false
 share: false
 ---
 
