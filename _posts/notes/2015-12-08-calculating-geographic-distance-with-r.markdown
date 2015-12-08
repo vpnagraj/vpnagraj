@@ -3,7 +3,7 @@ layout: post
 title: Calculating Geographic Distance With R
 modified:
 categories: notes
-excerpt: a brief tutorial that introduces two methods for iteratively computing distance
+excerpt: a brief tutorial that introduces two methods for iteratively computing map distance
 tags: [geocoding, gis, google]
 image:
   feature:
