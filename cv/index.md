@@ -11,7 +11,7 @@ share: false
 {% include _toc.html %}
 
 ###SUMMARY###
-I am a Research Data Analyst at the University of Virginia's Claude Moore Health Sciences Library. My focus areas are web application development, data analysis and academic computing pedagogy. 
+> I am a Research Data Analyst at the University of Virginia's Claude Moore Health Sciences Library. My focus areas are web application development, data analysis and academic computing pedagogy. 
 
 ###EDUCATION###
 B.A. English & Art History — University of Virginia (Charlottesville, VA)
@@ -26,15 +26,15 @@ B.A. English & Art History — University of Virginia (Charlottesville, VA)
 
 2009-2011 Google Books Project Assistant (Alderman Library - University of Virginia)
 
-###OTHER ACTIVITIES###
+###OTHER###
 
-2015 - Software Carpentry Certified Instructor
+- Software Carpentry Certified Instructor
 
-2013-2015 - Contributor to DrupalPress (http://blog.hsl.virginia.edu/drupalpress/)
+- Contributor to [DrupalPress](http://blog.hsl.virginia.edu/drupalpress/)
 
-2014 - Contributor to the Center for Open Science SHARE data harverster (https://github.com/CenterForOpenScience/SHARE)
+- Contributor to [the Center for Open Science SHARE data harverster](https://github.com/CenterForOpenScience/SHARE)
 
-2013 - Contributor to Neatline CSV Importer Omeka plugin (https://github.com/scholarslab/NeatlineCsvImport)
+- Contributor to [the Neatline CSV Importer Omeka plugin](https://github.com/scholarslab/NeatlineCsvImport)
 
 ###PUBLICATIONS###
 
@@ -56,6 +56,16 @@ Sentiment Analysis With R
 [https://github.com/vpnagraj/meetup/tree/master/2015-04-21-sentiment-analysis](https://github.com/vpnagraj/meetup/tree/master/2015-04-21-sentiment-analysis)
 
 ###TEACHING###
+
+**BIMS 8382 - Introduction to Biomedical Data Science **
+
+Location: Charlottesville VA
+
+Date: Spring 2016
+
+_Teaching Assistant_
+	
+> This course introduces methods, tools, and software for reproducibly managing, manipulating, analyzing, and visualizing large-scale biomedical data. Specifically, the course introduces the R statistical computing environment and packages for manipulating and visualizing high-dimensional data, covers strategies for reproducible research, and culminates with analysis of data from a real RNA-seq experiment using R and Bioconductor packages.
 
 **Reproducible Reporting: Generating Dynamic Documents with R+RStudio** 
 
