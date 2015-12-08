@@ -23,7 +23,7 @@ There are a few ways to approach this.
 
 The *ggmap* package includes a function called `mapdist()` that computes the distance between two locations based on a "from" and a "to" argument. These parameters accept strings. What's nice about this is that the two steps described above are combined in one. The names are geocoded and distances between the locations are computed via the [Google API Distance Matrix](https://developers.google.com/maps/documentation/distance-matrix/intro?hl=en). The **mode** can be set to "walking", "bicycling" or "driving" and the **output** format configured to either "simple" (data frame) or "all" (list). But with its defaults, the function gives you easy access to the distance in miles (or meters or kilometers) and duration in minutes (or seconds or hours):
 
-```r
+~~~ r
 library(ggmap)
 
 arena_dist <- mapdist(from = "Madison Square Garden New York, NY", 
@@ -33,11 +33,11 @@ arena_dist$miles
 
 arena_dist$minutes
 
-```
+~~~
 
 The method above works well for measuring a single distance between two locations. But there are some cases (including the one that inspired this post) that require measurements across many combinations of places. The code below achieves this by passing `mapdist()` into `lapply()`:
 
-```r
+~~~ r
 library(ggmap)
 
 # create vector of place names
@@ -54,7 +54,7 @@ dist_list <- lapply(places_names,
                                    mapdist(from=places_names, to=x)$miles)
 
 dist_list
-```
+~~~
 
 This is great ... *but* there's another *but*. The [Google Maps API limits usage of its web services](https://developers.google.com/maps/documentation/business/articles/usage_limits)) to 250 queries per day. So say you have a list of 100 locations, and you want to compute a matrix of distances between all of them: 
 
@@ -70,7 +70,7 @@ There's an easy workaround to the Google Maps API query limit: use the Google Ma
 
 `geocode()` calculates the latitude and longitude of an input location name (as a string) via the [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/intro?csw=1). Because it's calculating the distance once for each individual location, the resulting query count for a list of 100 institutions is 100. And with latitude and longitude available, you can rely on other packages to calculate distance. `gdist()` from the *Imap* package computes the [geodesic distance](https://en.wikipedia.org/wiki/Geographical_distance) based on the latitude and longitude of the first location, and latitude and longitude of the second location. Because `gdist()` takes **lon.1**, **lat.1**, **lon.2** and **lat.2** the code can be a little bit messier. The example below geocodes the same place names as above, then computes all of the distances between them:
 
-```r
+~~~ r
 # create vector of place names
 places_names <- c("Museum of Modern Art New York, NY",
                 "Smithsonian Museum of American Art Washington, DC",
@@ -102,7 +102,7 @@ for (i in 1:nrow(places_df)) {
     
 }
 
-```
+~~~
 **NB** As of writing this blog post the *ggmap* package had been recently updated to Version 2.5.2, which sets the default **source** for the `geocode()` function set to "dsk". I tried that method and received inaccurate latitude and longitude results. I would recommend using "source='google'" if you plan on using `geocode()` + `gdist()`
 
 ## Alternative Solutions
