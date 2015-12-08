@@ -57,7 +57,7 @@ Sentiment Analysis With R
 
 ###TEACHING###
 
-**BIMS 8382 - Introduction to Biomedical Data Science **
+**BIMS 8382 - Introduction to Biomedical Data Science**
 
 Location: Charlottesville VA
 
