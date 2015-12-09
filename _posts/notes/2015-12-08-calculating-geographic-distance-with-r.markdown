@@ -52,7 +52,7 @@ places_names <- c("Museum of Modern Art New York, NY",
                 "Walker Art Center Minneapolis, MN",
                 "Fralin Museum of Art Charlottesville, VA")
 
-# apply distance calculation to all combinations of 
+# apply distance calculation to all combinations of place names
 dist_list <- lapply(places_names, 
                     function(z) 
                         sapply(z, 
