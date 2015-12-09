@@ -3,11 +3,13 @@ layout: post
 title: Calculating Geographic Distance With R
 modified:
 categories: notes
-excerpt: a brief tutorial that introduces two methods for iteratively computing map distance
-tags: [geocoding, gis, google]
+excerpt: a brief discussion of two methods for computing map distance
+tags: [geocoding, gis, google, r]
 image:
   feature:
 date: 2015-12-08T15:27:43-05:00
+comments: true
+share: false
 ---
 
 I've been working on an analysis that requires distance measurements as data points. The original dataset only had place names (as strings) so I had to do some geocoding before I could perform my distance calculations. I've used the *ggmap* package (... an R interface to the [Google Maps API](https://developers.google.com/maps/documentation/geocoding/intro?csw=1)) to do this kind of thing in the past, but I haven't documented that work before now. 
@@ -23,21 +25,24 @@ There are a few ways to approach this.
 
 The *ggmap* package includes a function called `mapdist()` that computes the distance between two locations based on a "from" and a "to" argument. These parameters accept strings. What's nice about this is that the two steps described above are combined in one. The names are geocoded and distances between the locations are computed via the [Google API Distance Matrix](https://developers.google.com/maps/documentation/distance-matrix/intro?hl=en). The **mode** can be set to "walking", "bicycling" or "driving" and the **output** format configured to either "simple" (data frame) or "all" (list). But with its defaults, the function gives you easy access to the distance in miles (or meters or kilometers) and duration in minutes (or seconds or hours):
 
-~~~ r
+{% highlight r %}
+# load ggmap
 library(ggmap)
 
-arena_dist <- mapdist(from = "Madison Square Garden New York, NY", 
-					  to = "The Palace of Auburn Hills Auburn Hills, MI")
+# calculate distance between two place names
+arena_dist <- mapdist(from = "Madison Square Garden New York, NY", to = "The Palace of Auburn Hills Auburn Hills, MI")
 
+# output distance in miles
 arena_dist$miles
 
+# output "distance" in minutes
 arena_dist$minutes
-
-~~~
+{% endhighlight %}
 
 The method above works well for measuring a single distance between two locations. But there are some cases (including the one that inspired this post) that require measurements across many combinations of places. The code below achieves this by passing `mapdist()` into `lapply()`:
 
-~~~ r
+{% highlight r %}
+# load ggmap
 library(ggmap)
 
 # create vector of place names
@@ -47,14 +52,27 @@ places_names <- c("Museum of Modern Art New York, NY",
                 "Walker Art Center Minneapolis, MN",
                 "Fralin Museum of Art Charlottesville, VA")
 
+# apply distance calculation to all combinations of 
 dist_list <- lapply(places_names, 
                     function(z) 
                         sapply(z, 
                                function(x) 
                                    mapdist(from=places_names, to=x)$miles)
+                                   )
 
+# view results as list
 dist_list
-~~~
+
+# unlist results and convert to a "named" matrix format
+dist_mat <- sapply(dist_list, unlist)
+
+colnames(dist_mat) <- places_names
+
+rownames(dist_mat) <- places_names
+
+# view results as matrix
+dist_mat
+{% endhighlight %}
 
 This is great ... *but* there's another *but*. The [Google Maps API limits usage of its web services](https://developers.google.com/maps/documentation/business/articles/usage_limits)) to 250 queries per day. So say you have a list of 100 locations, and you want to compute a matrix of distances between all of them: 
 
@@ -70,7 +88,7 @@ There's an easy workaround to the Google Maps API query limit: use the Google Ma
 
 `geocode()` calculates the latitude and longitude of an input location name (as a string) via the [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/intro?csw=1). Because it's calculating the distance once for each individual location, the resulting query count for a list of 100 institutions is 100. And with latitude and longitude available, you can rely on other packages to calculate distance. `gdist()` from the *Imap* package computes the [geodesic distance](https://en.wikipedia.org/wiki/Geographical_distance) based on the latitude and longitude of the first location, and latitude and longitude of the second location. Because `gdist()` takes **lon.1**, **lat.1**, **lon.2** and **lat.2** the code can be a little bit messier. The example below geocodes the same place names as above, then computes all of the distances between them:
 
-~~~ r
+{% highlight r %}
 # create vector of place names
 places_names <- c("Museum of Modern Art New York, NY",
                 "Smithsonian Museum of American Art Washington, DC",
@@ -78,23 +96,27 @@ places_names <- c("Museum of Modern Art New York, NY",
                 "Walker Art Center Minneapolis, MN",
                 "Fralin Museum of Art Charlottesville, VA")
 
-# geocode 
+# geocode place names
 places_lat <- geocode(places_names, source="google")$lat
 places_lon <- geocode(places_names, source="google")$lon
 
+# create a data frame to store all variables
 places_df <- data.frame(names = places_names,
                         lat = places_lat,
                         lon = places_lon)
 
 # calculate geodesic distance with gdist() from Imap package
 
+# load Imap
 library(Imap)
 
-places_dist <- list()
+# create an empty list
+dist_list <- list()
 
+# iterate through data frame placing calculated distance next to place place names
 for (i in 1:nrow(places_df)) {
     
-    places_dist[[i]] <- gdist(lon.1 = places_df$lon[i], 
+    dist_list[[i]] <- gdist(lon.1 = places_df$lon[i], 
                               lat.1 = places_df$lat[i], 
                               lon.2 = places_df$lon, 
                               lat.2 = places_df$lat, 
@@ -102,7 +124,20 @@ for (i in 1:nrow(places_df)) {
     
 }
 
-~~~
+# view results as list
+dist_list
+
+# unlist results and convert to a "named" matrix format
+dist_mat <- sapply(dist_list, unlist)
+
+colnames(dist_mat) <- places_names
+
+rownames(dist_mat) <- places_names
+
+# view results as matrix
+dist_mat
+{% endhighlight %}
+
 **NB** As of writing this blog post the *ggmap* package had been recently updated to Version 2.5.2, which sets the default **source** for the `geocode()` function set to "dsk". I tried that method and received inaccurate latitude and longitude results. I would recommend using "source='google'" if you plan on using `geocode()` + `gdist()`
 
 ## Alternative Solutions
