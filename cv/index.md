@@ -14,31 +14,43 @@ share: false
 > I am a Research Data Analyst at the University of Virginia. My areas of focus are data preparation and analysis, academic computing pedagogy and web application development.
 
 ###EDUCATION###
-B.A. English & Art History // University of Virginia Charlottesville, VA)
+
+####University of Virginia####
+*Charlottesville, VA*
+
+**B.A. English & Art History**
 
 ###EXPERIENCE###
 
-####Research Data Analyst // Claude Moore Health Sciences Library // University of Virginia // 2015-Present
+####Research Data Analyst
+*Claude Moore Health Sciences Library // University of Virginia*
+*2015-Present*
 
 - Teach classes
 - Provide consultations 
 - Build analytics dashboards
 - Do research
 
-####Web Developer // Claude Moore Health Sciences Library // University of Virginia // 2012-2015
+####Web Developer 
+*Claude Moore Health Sciences Library // University of Virginia*
+*2012-2015*
 
 - Maintain dynamic and static content management, theming elements, search tools, permissions, contextual layouts, contact forms and all functionality on the CMHSL website: https://www.hsl.virginia.edu
 - Program scripts for both internal and external analytics queries of library survey results, website traffic and UVa School of Medicine’s faculty publication metrics: https://profiles.scholars.virginia.edu/
 - Implement search engine optimization strategies across a multi-site platform for the CMHSL Historical Collections department’s online exhibits: https://exhibits.hsl.virginia.edu/
 
-####Circulation Assisant // Claude Moore Health Sciences Library // University of Virginia // 2011-2012
+####Circulation Assisant
+*Claude Moore Health Sciences Library // University of Virginia*
+*2011-2012*
 
 - Provided reference support to faculty, staff, students and community members who needed help using the Virgo catalog and other resources including UpToDate, Pubmed, Web of Science and RefWorks
 - Served as liaison to the Technology in Education department and trained other Service Desk staff regarding best practices for troubleshooting hardware, software and networking issues
 - Participated in Research and Data Services departmental web projects, including the design and implementation of the BioConnector portal https://www.bioconnector.virginia.edu and development of a proof-of-concept instance of the VIVO collaboration tool http://vivoweb.org/
 
 
-####Google Books Project Assistant // Alderman Library // University of Virginia // 2009-2011 
+####Google Books Project Assistant
+*Alderman Library // University of Virginia*
+*2009-2011*
 
 - Structured the project’s daily workflow to ensure that each shipment of books was processed in an accurate and timely manner
 - Scheduled, trained and supervised the project’s team, which included as many as fifteen full-time staff members, wage employees, students and volunteers
