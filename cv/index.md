@@ -27,7 +27,7 @@ Claude Moore Health Sciences Library–University of Virginia (2015-Present)
 
 - Provide individual consultations for researchers regarding programmatic data preparation, visualization and analysis techniques: [https://www.bioconnector.virginia.edu/dash](https://www.bioconnector.virginia.edu/dash)
 - Prepare course material and teach workshops covering a variety of biomedical data science topics
-- Research and develop bibliometric data analysis strategies, including modeling grant proposal abstracts, mining full text of journal articles and inter-institutional benchmarking
+- Research and develop bibliometric data analysis strategies, including modeling grant proposal abstracts, mining full text of journal articles and benchmarking inter-institutional co-authorships
 - Coordinate and promote collaborative programming activities, like the weekly Code Review meetup
 
 ####Web Developer
