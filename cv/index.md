@@ -11,24 +11,44 @@ share: false
 {% include _toc.html %}
 
 ###SUMMARY###
-> I am a Research Data Analyst at the University of Virginia's Claude Moore Health Sciences Library. My focus areas are web application development, data analysis and academic computing pedagogy. 
+> I am a Research Data Analyst at the University of Virginia. My areas of focus are data preparation and analysis, academic computing pedagogy and web application development.
 
 ###EDUCATION###
-B.A. English & Art History — University of Virginia (Charlottesville, VA)
+B.A. English & Art History // University of Virginia Charlottesville, VA)
 
 ###EXPERIENCE###
 
-2015-Present Research Data Analyst (Claude Moore Health Sciences Library - University of Virginia)
+####Research Data Analyst // Claude Moore Health Sciences Library // University of Virginia // 2015-Present
 
-2012-2015 Web Developer (Claude Moore Health Sciences Library - University of Virginia)
+- Teach classes
+- Provide consultations 
+- Build analytics dashboards
+- Do research
 
-2011-2012 Circulation Assisant (Claude Moore Health Sciences Library - University of Virginia)
+####Web Developer // Claude Moore Health Sciences Library // University of Virginia // 2012-2015
 
-2009-2011 Google Books Project Assistant (Alderman Library - University of Virginia)
+- Maintain dynamic and static content management, theming elements, search tools, permissions, contextual layouts, contact forms and all functionality on the CMHSL website: https://www.hsl.virginia.edu
+- Program scripts for both internal and external analytics queries of library survey results, website traffic and UVa School of Medicine’s faculty publication metrics: https://profiles.scholars.virginia.edu/
+- Implement search engine optimization strategies across a multi-site platform for the CMHSL Historical Collections department’s online exhibits: https://exhibits.hsl.virginia.edu/
+
+####Circulation Assisant // Claude Moore Health Sciences Library // University of Virginia // 2011-2012
+
+- Provided reference support to faculty, staff, students and community members who needed help using the Virgo catalog and other resources including UpToDate, Pubmed, Web of Science and RefWorks
+- Served as liaison to the Technology in Education department and trained other Service Desk staff regarding best practices for troubleshooting hardware, software and networking issues
+- Participated in Research and Data Services departmental web projects, including the design and implementation of the BioConnector portal https://www.bioconnector.virginia.edu and development of a proof-of-concept instance of the VIVO collaboration tool http://vivoweb.org/
+
+
+####Google Books Project Assistant // Alderman Library // University of Virginia // 2009-2011 
+
+- Structured the project’s daily workflow to ensure that each shipment of books was processed in an accurate and timely manner
+- Scheduled, trained and supervised the project’s team, which included as many as fifteen full-time staff members, wage employees, students and volunteers
+- Performed bibliographic searches, added volumes and identified metadata errors in the library catalog
 
 ###OTHER###
 
-- Software Carpentry Certified Instructor
+- [Software Carpentry](http://software-carpentry.org/) Certified Instructor
+
+- Contributor to [Getting Genetics Done](http://www.gettinggeneticsdone.com/)
 
 - Contributor to [DrupalPress](http://blog.hsl.virginia.edu/drupalpress/)
 
@@ -45,7 +65,6 @@ Nagraj, V.P and Nunemaker, M.S (2015) Analyzing Library Services Using Customer 
 ###CONFERENCE PAPERS AND POSTERS###
 
 Nagraj, V.P. and Denton, A. (2016, May). _Publication Metrics: Services & Support_. Poster to be presented at the Annual Meeting of the Medical Library Association, Toronto, CAN.
-
 
 Ragon, J., Nunemaker, M. and Nagraj, V.P. (2015, October). _A Mission Focused Approach to Liaison Services Data Collection_. Paper presented at the Annual Meeting of the Mid-Atlantic Chapter of the Medical Library Association, Asheville, NC.
 
