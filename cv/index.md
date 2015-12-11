@@ -27,9 +27,8 @@ Claude Moore Health Sciences Library–University of Virginia (2015-Present)
 
 - Provide individual consultations for researchers regarding programmatic data preparation, visualization and analysis techniques: [https://www.bioconnector.virginia.edu/dash](https://www.bioconnector.virginia.edu/dash)
 - Prepare course material and teach workshops covering a variety of biomedical data science topics
-- Build analytics dashboards
-- Research 
-- Coordinate outreach events to promote collaborative research techniques, including weekly Code Review: 
+- Research and develop bibliometric data analysis strategies, including modeling grant proposal abstracts, mining full text of journal articles and inter-institutional benchmarking
+- Coordinate and promote collaborative programming activities, like the weekly Code Review meetup
 
 ####Web Developer
 
@@ -39,22 +38,6 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 - Programmed scripts for both internal and external analytics queries of library survey results, website traffic and UVa School of Medicine’s faculty publication metrics: [https://profiles.scholars.virginia.edu/](https://profiles.scholars.virginia.edu/)
 - Implemented search engine optimization strategies across a multi-site platform for the CMHSL Historical Collections department’s online exhibits: [https://exhibits.hsl.virginia.edu/](https://exhibits.hsl.virginia.edu/)
 
-####Circulation Assisant
-
-Claude Moore Health Sciences Library–University of Virginia (2011-2012)
-
-- Provided reference support to faculty, staff, students and community members who needed help using the Virgo catalog and other resources including UpToDate, Pubmed, Web of Science and RefWorks
-- Served as liaison to the Technology in Education department and trained other Service Desk staff regarding best practices for troubleshooting hardware, software and networking issues
-- Participated in Research and Data Services departmental web projects, including the design and implementation of the BioConnector portal [https://www.bioconnector.virginia.edu](https://www.bioconnector.virginia.edu) and development of a proof-of-concept instance of the VIVO collaboration tool [http://vivoweb.org/](http://vivoweb.org/)
-
-####Google Books Project Assistant
-
-Alderman Library–University of Virginia (2009-2011)
-
-- Structured the project’s daily workflow to ensure that each shipment of books was processed in an accurate and timely manner
-- Scheduled, trained and supervised the project’s team, which included as many as fifteen full-time staff members, wage employees, students and volunteers
-- Performed bibliographic searches, added volumes and identified metadata errors in the library catalog
-
 ###LANGUAGES AND SOFTWARE USED###
 
 - R 
@@ -62,15 +45,14 @@ Alderman Library–University of Virginia (2009-2011)
 - Drupal
 - WordPress
 - Python 
-- SQL 
+- Git 
 - Bash 
 - PHP 
+- SQL 
+- Markdown
 - JavaScript 
-- Markdown 
-- Git 
-- Excel 
-- Tableau
 - OpenRefine
+- Tableau
 
 ###OTHER###
 
