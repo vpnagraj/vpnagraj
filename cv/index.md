@@ -17,7 +17,7 @@ share: false
 
 ####University of Virginia####
 
-Bachelor of Arts: English and Art History
+BA: English and Art History
 
 ###EXPERIENCE###
 

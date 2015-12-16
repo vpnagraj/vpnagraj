@@ -1,0 +1,23 @@
+---
+layout: post
+title: Free Data
+modified:
+categories: notes
+excerpt: "awesome"
+tags: [datasets, github]
+image:
+  feature:
+date: 2015-12-16T14:19:20-05:00
+---
+
+Found a Github repository that curates links to "awesome public datasets":
+
+[https://github.com/caesar0301/awesome-public-datasets](https://github.com/caesar0301/awesome-public-datasets)
+
+Judging from the fact that the repo has > 6000 stars, I might be a little late to the party ... 
+
+Tons of potential here but just to spitball a few ideas:
+
+- [Shiny app](http://shiny.rstudio.com/) with [choropleth map](http://rforpublichealth.blogspot.com/2015/10/mapping-with-ggplot-create-nice.html) tracking [spread of Ebola](https://data.hdx.rwlabs.org/dataset/ebola-cases-2014/resource/c59b5722-ca4b-41ca-a446-472d6d824d01)
+- Classification algorithm for "age-appropriateness" of a piece of text based on modeled [blog data](http://u.cs.biu.ac.il/~koppel/BlogCorpus.htm)
+- Visualize proportion of [work on view (versus not on view) at the Minneapolis Institute of Art by artist nationality](https://github.com/artsmia/collection/tree/master/objects)
