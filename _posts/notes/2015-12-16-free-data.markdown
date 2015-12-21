@@ -8,6 +8,7 @@ tags: [datasets, github]
 image:
   feature:
 date: 2015-12-16T14:19:20-05:00
+share: false
 ---
 
 Found a Github repository that curates links to "awesome public datasets":
