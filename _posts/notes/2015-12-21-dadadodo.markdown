@@ -3,7 +3,7 @@ layout: post
 title: dadadodo
 modified:
 categories: notes
-excerpt: 
+excerpt: programming cut-ups 
 tags: [text analysis, dadadodo, bash, r, command line]
 image:
   feature:
@@ -17,7 +17,7 @@ Found something worth finding:
 
 It's a commmad line utilitiy for creating (pseudo) random sentences–and it was mentioned in the documentaiton for one of the datasets I wrote about in the [last post](http://vpnagraj.github.io/notes/free-data/).
 
-The name is a nod to nonsense, and some of the *dadadodo* output is just that. The program is built on a [Markov model](http://www.cs.princeton.edu/courses/archive/spr05/cos126/assignments/markov.html) but can be pretty noisy, especially with a larger corpus. 
+The name is a nod to the nonsensical, and some times the *dadadodo* output feels truly [postmodern](https://en.wikipedia.org/wiki/William_S._Burroughs). The program is built on a [Markov model](http://www.cs.princeton.edu/courses/archive/spr05/cos126/assignments/markov.html) but can generate some pretty wild results, especially with a larger corpus. 
 
 That said, it's easy to install and run from the command line.
 
