@@ -11,4 +11,4 @@ share: false
 
 ###CV###
 
-[this is it]({site.baseurl}/cv/)
+[this is it](http://vpnagraj.github.io/cv/)
