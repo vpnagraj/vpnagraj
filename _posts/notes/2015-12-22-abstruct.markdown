@@ -3,7 +3,7 @@ layout: post
 title: abstruct
 modified:
 categories: notes
-excerpt: 'Worked full or CI P of reasons. Was years.''
+excerpt: 'Worked full or CI P of reasons. Was years.'
 tags: [dadadodo, shiny, r, text analysis, pubmed]
 image:
   feature:
@@ -23,5 +23,7 @@ I did.
 
 The results are stored in a single variable that is accessed separately in each Shiny output object by using [reactive](http://shiny.rstudio.com/tutorial/lesson6/) elements.
 
-Pure gonzo.
-
+<figure>
+	<img src="/images/abstruct-example.png">
+	<figcaption>pure gonzo</figcaption>
+</figure>
