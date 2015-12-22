@@ -11,4 +11,4 @@ share: false
 
 ###CV###
 
-[CV]({site.url}/cv/index.md)
+[this is it]({site.baseurl}/cv/)
