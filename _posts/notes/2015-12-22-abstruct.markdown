@@ -1,0 +1,27 @@
+---
+layout: post
+title: abstruct
+modified:
+categories: notes
+excerpt: 'Worked full or CI P of reasons. Was years.''
+tags: [dadadodo, shiny, r, text analysis, pubmed]
+image:
+  feature:
+date: 2015-12-22T11:10:14-05:00
+share: false
+---
+
+Just spent ~ 90 minutes this morning toying with the text generation program I mentioned in [a note](http://vpnagraj.github.io/notes/dadadodo/) yesterday.
+
+[*dadadodo*](https://www.jwz.org/dadadodo/) automatically creates pseudo random output based on input text. It's a command line utility, and I have it installed on a Linux machine. Since I have a Shiny server running on the same box, I figured I'd see if I could combine the two and create a web app.
+
+I did.
+
+[http://apps.bioconnector.virginia.edu/abstruct/](http://apps.bioconnector.virginia.edu/abstruct/)
+
+*abstruct* uses an R interface for the Pubmed API through the [rentrez](https://cran.r-project.org/web/packages/rentrez/vignettes/rentrez_tutorial.html) package to search for abstracts based on user input keywords.  This premise depends on [structured abstracts](https://www.nlm.nih.gov/bsd/policy/structured_abstracts.html), which the National Library of Medicine indexes granularly (down to "Objectives", "Results", etc.) and exposes in the XML export for each record. The app crawls through X number of records that meet the search term (and have structured abstracts), then parses the XML for each section and passes a concatenated file to *dadadodo* for babbling via the R `system()` function.
+
+The results are stored in a single variable that is accessed separately in each Shiny output object by using [reactive](http://shiny.rstudio.com/tutorial/lesson6/) elements.
+
+Pure gonzo.
+
