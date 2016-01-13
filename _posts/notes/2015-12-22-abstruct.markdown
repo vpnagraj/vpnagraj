@@ -25,5 +25,5 @@ The results are stored in a single variable that is accessed separately in each 
 
 <figure>
 	<img src="/images/abstruct-example.png">
-	<figcaption>pure gonzo</figcaption>
+	<figcaption>Pure Gonzo</figcaption>
 </figure>
