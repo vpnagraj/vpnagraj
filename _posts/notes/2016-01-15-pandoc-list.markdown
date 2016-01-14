@@ -17,38 +17,31 @@ In particular, the `pandoc.[WHATEVER]()` functions from pander make it easy to r
 An example ... say you had the following (not so arbitrary) character vector:
 
 
-```r
+{% highlight r %}
 bowie <- c("Young Americans", "Station To Station", "Low", "Heroes", "Lodger", "Scary Monsters", "Let's Dance")
-bowie
-```
-
-```
-## [1] "Young Americans"    "Station To Station" "Low"               
-## [4] "Heroes"             "Lodger"             "Scary Monsters"    
-## [7] "Let's Dance"
-```
+{% endhighlight %}
 
 You could just print the object:
 
 
-```r
+{% highlight r %}
 bowie
-```
+{% endhighlight %}
 
-```
+{% highlight r %}
 ## [1] "Young Americans"    "Station To Station" "Low"               
 ## [4] "Heroes"             "Lodger"             "Scary Monsters"    
 ## [7] "Let's Dance"
-```
+{% endhighlight %}
 
 Doesn't look great. Maybe try it with the generic `pander()` function around the name of the character vector:
 
 
-```r
+{% highlight r %}
 # install.packages("pander")
 library(pander)
 pander(bowie)
-```
+{% endhighlight %}
 
 _Young Americans_, _Station To Station_, _Low_, _Heroes_, _Lodger_, _Scary Monsters_ and _Let's Dance_
 
@@ -59,11 +52,11 @@ Then I tab-completed into the `pandoc.[WHATEVER]()` functions and realized I was
 In this case if I want a list then I should go with `pandoc.list()`:
 
 
-```r
+{% highlight r %}
 pandoc.list(bowie)
-```
+{% endhighlight %}
 
-```
+{% highlight r %}
 ## 
 ## * Young Americans 
 ## * Station To Station 
@@ -74,16 +67,16 @@ pandoc.list(bowie)
 ## * Let's Dance 
 ## 
 ## <!-- end of list -->
-```
+{% endhighlight %}
 
 That looks more like a list ... at least as it would be printed in a console.
 
 If you want to see it bulleted just wrap another `pander()` around it:
 
 
-```r
+{% highlight r %}
 pander(pandoc.list(bowie))
-```
+{% endhighlight %}
 
 
 * Young Americans 
@@ -99,9 +92,9 @@ pander(pandoc.list(bowie))
 And if you want to see the vector ordered:
 
 
-```r
+{% highlight r %}
 pander(pandoc.list(bowie, style="ordered"))
-```
+{% endhighlight %}
 
 
 1. Young Americans 
@@ -117,16 +110,16 @@ pander(pandoc.list(bowie, style="ordered"))
 The best part about these functions is that they're documented inside R man pages (as opposed to only in the generic pandoc documentation) ... check it out:
 
 
-```r
+{% highlight r %}
 ?pandoc.list
-```
+{% endhighlight %}
 
 
-```r
+{% highlight r %}
 sessionInfo()
-```
+{% endhighlight %}
 
-```
+{% highlight r %}
 ## R version 3.2.2 (2015-08-14)
 ## Platform: x86_64-apple-darwin13.4.0 (64-bit)
 ## Running under: OS X 10.11.1 (El Capitan)
@@ -144,4 +137,4 @@ sessionInfo()
 ##  [1] magrittr_1.5    tools_3.2.2     htmltools_0.2.6 yaml_2.1.13    
 ##  [5] Rcpp_0.12.2     stringi_1.0-1   rmarkdown_0.8.1 knitr_1.11     
 ##  [9] stringr_1.0.0   digest_0.6.8    evaluate_0.8
-```
+{% endhighlight %}
