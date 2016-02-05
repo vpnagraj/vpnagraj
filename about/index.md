@@ -9,6 +9,5 @@ share: false
 
 {% include _toc.html %}
 
-###CV###
 
-[this is it](http://vpnagraj.github.io/cv/)
+[cv](http://vpnagraj.github.io/cv/)
