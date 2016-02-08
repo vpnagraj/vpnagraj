@@ -5,6 +5,7 @@ modified:
 categories: notes
 excerpt: formatting a character vector as a list in rmarkdown
 tags: [pander, rmarkdown]
+comments: true
 image:
 feature:
 date: 2016-01-15T14:07:29-05:00
