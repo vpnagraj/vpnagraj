@@ -8,6 +8,7 @@ tags: [pander, rmarkdown]
 comments: true
 image:
 feature:
+share: false
 date: 2016-01-15T14:07:29-05:00
 ---
 

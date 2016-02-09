@@ -8,6 +8,7 @@ tags: [github pages, jekyll, google, domain]
 image:
   feature:
 date: 2016-01-13T13:09:19-05:00
+comments: true
 share: false
 ---
 

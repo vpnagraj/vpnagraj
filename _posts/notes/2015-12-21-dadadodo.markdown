@@ -8,6 +8,7 @@ tags: [text analysis, dadadodo, bash, r, command line]
 image:
   feature:
 date: 2015-12-21T14:04:03-05:00
+comments: true
 share: false
 ---
 

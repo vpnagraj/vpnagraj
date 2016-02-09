@@ -5,10 +5,10 @@ modified:
 categories: notes
 excerpt: a brief discussion of two methods for computing map distance
 tags: [geocoding, gis, google, r]
+comments: true
 image:
   feature:
 date: 2015-12-08T15:27:43-05:00
-comments: true
 share: false
 ---
 
