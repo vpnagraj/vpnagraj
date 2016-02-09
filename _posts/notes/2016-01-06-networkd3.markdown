@@ -4,7 +4,7 @@ title: networkD3
 modified:
 categories: notes
 excerpt:
-tags: [network analysis, D3, JavaScript, R]
+tags: [network analysis, D3, JavaScript, R, Shiny, long data]
 comments: true
 share: false
 image:
@@ -12,13 +12,20 @@ image:
 date: 2016-01-06T13:18:39-05:00
 ---
 
-I've been working on a project that has a network analysis component, and am finally getting my head around how I can visualize the network. The package I've been using is [networkD3](https://cran.r-project.org/web/packages/networkD3/index.html), not to be confused with [d3Network](https://cran.r-project.org/web/packages/d3Network/index.html) ... same author but the former is now the actively developed version, and makes it easier to integrate the plots with something like Shiny.
+I've been working on a project that has a network analysis component, and am finally getting my head around how I can visualize the data. The package I've been using is [networkD3](https://cran.r-project.org/web/packages/networkD3/index.html), not to be confused with [d3Network](https://cran.r-project.org/web/packages/d3Network/index.html) ... same author but the former is now the actively developed version, and makes it easier to integrate the plots with something like Shiny.
 
 The [vignette](https://christophergandrud.github.io/networkD3/) is encouraging but kind of opaque, especially in terms of data preparation. With that said, it's not too hard to wrangle your data frame into something that looks like the built in _Les Miserables_ dataset.
 
 `simpleNetwork()` the low hanging fruit. The function takes a data frame, as well as "Source" and "Target" column specifications to create the node-link relationships. What's worth noting here is that each row represents a relationship. So to fully visualize a network you need a "long" data frame that walks through every combination or connection.
 
-The code below reads in a dataset that contains the Museum of Modern Art (MOMA) collection database, then filters by the year 1945, removes "various" artist designations, groups by artist and department and counts the number of works acquired for each creator in each department. Because this is a "long" format (repeats artist name if he or she has been collected by multiple departments) you can use this data frame with simple network plot. 
+An example ... 
+
+<figure>
+        <img src="/images/simplenetwork-example.png">
+        <figcaption>artist work acquired by moma department (1945)</figcaption>
+</figure>
+
+The code below creates the plot above. First it reads in a dataset that contains the [Museum of Modern Art (MOMA) collection database](https://github.com/MuseumofModernArt/collection). For legibility, the data is filtered by the year 1945, and does not include "various" artist designations. Because this is data frame has a "long" format (i.e. it repeats artist name if he or she has been collected by multiple departments) you can use pass it straight into simple network plot. The "source" in this case will be the artist and the "target" will be the department, and all of which will be nodes that are visualized with a link if they appear in the same row.
 
 {% highlight r %}
 
@@ -39,9 +46,7 @@ moma1945 <-
     filter(YearAcquired == 1945) %>%
     # get rid of 'various' artist pieces
     filter(!grepl("Various", Artist)) %>%
-    select(Artist, Department) %>%
-    group_by(Artist, Department) %>%
-    summarise(n=n())
+    select(Artist, Department)
 
 simpleNetwork(moma1945, 
               Source = "Artist", 
@@ -54,6 +59,5 @@ simpleNetwork(moma1945,
 
 {% endhighlight %}
 
-
-
+Here's a Shiny [app](https://http://apps.bioconnector.virginia.edu/moma) (and [code](https://github.com/vpnagraj/moma)) that creates visualizations very similar to the one above.
 
