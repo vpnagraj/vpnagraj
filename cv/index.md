@@ -15,7 +15,7 @@ share: false
 
 ### Education
 
-####University of Virginia####
+#### University of Virginia
 
 BA: English and Art History
 
