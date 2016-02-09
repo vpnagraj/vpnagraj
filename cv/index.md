@@ -10,10 +10,10 @@ share: false
 
 {% include _toc.html %}
 
-###SUMMARY###
+### Summary
 > I am a Research Data Analyst at the University of Virginia. My areas of focus are data preparation, academic computing pedagogy, bibliometric analysis and web application development.
 
-###EDUCATION###
+### Education
 
 ####University of Virginia####
 
