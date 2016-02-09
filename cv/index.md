@@ -19,9 +19,9 @@ share: false
 
 BA: English and Art History
 
-###EXPERIENCE###
+### Experience
 
-####Research Data Analyst
+#### Research Data Analyst
 
 Claude Moore Health Sciences Library–University of Virginia (2015-Present)
 
@@ -30,7 +30,7 @@ Claude Moore Health Sciences Library–University of Virginia (2015-Present)
 - Research and develop bibliometric data analysis strategies, including modeling grant proposal abstracts, mining full text of journal articles and benchmarking inter-institutional co-authorships
 - Coordinate and promote collaborative programming activities, like the weekly Code Review meetup
 
-####Web Developer
+#### Web Developer
 
 Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 
@@ -38,7 +38,7 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 - Programmed scripts for both internal and external analytics queries of library survey results, website traffic and UVa School of Medicine’s faculty publication metrics: [https://profiles.scholars.virginia.edu/](https://profiles.scholars.virginia.edu/)
 - Implemented search engine optimization strategies across a multi-site platform for the CMHSL Historical Collections department’s online exhibits: [https://exhibits.hsl.virginia.edu/](https://exhibits.hsl.virginia.edu/)
 
-###LANGUAGES AND SOFTWARE USED###
+### Languages & Software
 
 - R 
 - Linux/Unix 
@@ -54,7 +54,7 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 - OpenRefine
 - Tableau
 
-###OTHER###
+### Other
 
 - [Software Carpentry](http://software-carpentry.org/) Certified Instructor
 - Contributor to [Getting Genetics Done](http://www.gettinggeneticsdone.com/)
@@ -62,19 +62,19 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 - Contributor to [the Center for Open Science SHARE data harverster](https://github.com/CenterForOpenScience/SHARE)
 - Contributor to [the Neatline CSV Importer Omeka plugin](https://github.com/scholarslab/NeatlineCsvImport)
 
-###PUBLICATIONS###
+### Publications
 
 Parker, A., Nagraj V.P. and Moody, D. (2014). Exit as Strategy: Web Services as the New Websites for Many Libraries In K. Varnum (Ed.), _The Top Technologies Every Librarian Needs to Know: A LITA Guide_ (pp. 67-84). Chicago, IL: ALA TechSource.
 
 Nagraj, V.P and Nunemaker, M.S (2015) Analyzing Library Services Using Customer Relationship Managment Data and R Programming In S. Lessick (Ed.) "Enhancing library impact through technology". (2015). Journal of the Medical Library Association : JMLA, 103(4), 222–231. http://doi.org/10.3163/1536-5050.103.4.015
 
-###CONFERENCE PAPERS AND POSTERS###
+### Conference Papers & Posters
 
 Nagraj, V.P. and Denton, A. (2016, May). _Publication Metrics: Services & Support_. Poster to be presented at the Annual Meeting of the Medical Library Association, Toronto, CAN.
 
 Ragon, J., Nunemaker, M. and Nagraj, V.P. (2015, October). _A Mission Focused Approach to Liaison Services Data Collection_. Paper presented at the Annual Meeting of the Mid-Atlantic Chapter of the Medical Library Association, Asheville, NC.
 
-###PRESENTATIONS###
+### Presentations
 
 **Sentiment Analysis With R**
 
@@ -82,7 +82,7 @@ Ragon, J., Nunemaker, M. and Nagraj, V.P. (2015, October). _A Mission Focused Ap
 
 [https://github.com/vpnagraj/meetup/tree/master/2015-04-21-sentiment-analysis](https://github.com/vpnagraj/meetup/tree/master/2015-04-21-sentiment-analysis)
 
-###TEACHING###
+### Teaching
 
 **BIMS 8382: Introduction to Biomedical Data Science** (Teaching Assistant)
 
@@ -152,7 +152,7 @@ Claude Moore Health Sciences Library Drupal Workshop Series–University of Virg
 
 > Drupal implementations can extend well beyond simple content management — the framework has a number of contributed modules for importing, transforming and exporting data. This class will include demonstrations of the following modules: Feeds, Feeds XPath Parser and Views Data Export. Previous experience managing web content is recommended.
 
-###ADVANCED COURSEWORK AND EDUCATION###
+### Advanced Coursework & Education
 
 #### Johns Hopkins Data Science Specialization
 
