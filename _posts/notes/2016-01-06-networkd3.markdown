@@ -1,0 +1,59 @@
+---
+layout: post
+title: networkD3
+modified:
+categories: notes
+excerpt:
+tags: [network analysis, D3, JavaScript, R]
+comments: true
+share: false
+image:
+  feature:
+date: 2016-01-06T13:18:39-05:00
+---
+
+I've been working on a project that has a network analysis component, and am finally getting my head around how I can visualize the network. The package I've been using is [networkD3](https://cran.r-project.org/web/packages/networkD3/index.html), not to be confused with [d3Network](https://cran.r-project.org/web/packages/d3Network/index.html) ... same author but the former is now the actively developed version, and makes it easier to integrate the plots with something like Shiny.
+
+The [vignette](https://christophergandrud.github.io/networkD3/) is encouraging but kind of opaque, especially in terms of data preparation. With that said, it's not too hard to wrangle your data frame into something that looks like the built in _Les Miserables_ dataset.
+
+`simpleNetwork()` the low hanging fruit. The function takes a data frame, as well as "Source" and "Target" column specifications to create the node-link relationships. What's worth noting here is that each row represents a relationship. So to fully visualize a network you need a "long" data frame that walks through every combination or connection.
+
+The code below reads in a dataset that contains the Museum of Modern Art (MOMA) collection database, then filters by the year 1945, removes "various" artist designations, groups by artist and department and counts the number of works acquired for each creator in each department. Because this is a "long" format (repeats artist name if he or she has been collected by multiple departments) you can use this data frame with simple network plot. 
+
+{% highlight r %}
+
+library(networkD3)
+library(dplyr)
+library(readr)
+library(lubridate)
+
+# https://github.com/MuseumofModernArt/collection
+
+moma <- read_csv("https://raw.githubusercontent.com/MuseumofModernArt/collection/master/Artworks.csv")
+
+moma$YearAcquired <- year(moma$DateAcquired)
+
+moma1945 <-
+    moma %>%
+    # filter a year
+    filter(YearAcquired == 1945) %>%
+    # get rid of 'various' artist pieces
+    filter(!grepl("Various", Artist)) %>%
+    select(Artist, Department) %>%
+    group_by(Artist, Department) %>%
+    summarise(n=n())
+
+simpleNetwork(moma1945, 
+              Source = "Artist", 
+              Target = "Department",  
+              nodeColour = "gray",
+              textColour = "steelblue", 
+              charge = -75,
+              opacity = .5, 
+              zoom = TRUE)
+
+{% endhighlight %}
+
+
+
+
