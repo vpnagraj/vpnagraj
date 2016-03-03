@@ -54,9 +54,33 @@ names(propdata) <- c("n", "$\\mu_{\\bar{x}}$", "$\\sigma^2_{\\bar{x}}$", "$E(s^2
 
 pander(propdata)
 ```
+
+|---
+| Default aligned | Left aligned | Center aligned | Right aligned
+|-|:-|:-:|-:
+| First body part | Second cell | Third cell | fourth cell
+| Second line |foo | **strong** | baz
+| Third line |quux | baz | bar
+|---
+| Second body
+| 2 line
+|===
+| Footer row
+
+|---
+| n | $\mu_{\bar{x}}$ | $\sigma^2_{\bar{x}}$ | $E(s^2)$ 
+|-|:-|:-:|-:
+| 5 | 0.3362| 0.02264 | 0.1127 
+|10 | 0.3358 | 0.01117 | 0.1114 
+| 15 | 0.3325 | 0.007422 | 0.1095
+| 20 | 0.3348  | 0.005182 | 0.1102
+| 25 | 0.3294  | 0.004204 | 0.1082
+|---
+
+
 -------------------------------------------------------
- n   $\\mu_{\\bar{x}}$   $\\sigma^2_{\\bar{x}}$   $E(s^2)$ 
---- ----------------- ---------------------- ----------
+ n  $\mu_{\bar{x}}$ $\sigma^2_{\bar{x}}$  $E(s^2)$ 
+---  -----------------  ----------------------  ----------
  5       0.3362              0.02264           0.1127  
 
 10       0.3358              0.01117           0.1114  
