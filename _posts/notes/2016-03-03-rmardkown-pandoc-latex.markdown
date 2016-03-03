@@ -8,6 +8,8 @@ tags: [R, RMarkdown, LaTeX, Pandoc]
 image:
   feature:
 date: 2016-03-03T11:26:40-05:00
+share: false
+comments: true
 ---
 
 In an effort to make a statisical report look needlessly complex (?) I just spent ~ 30 minutes figuring out how to include LaTeX symbols ... in a Pandoc table column header ... in an RMarkdown document. 
@@ -53,7 +55,7 @@ names(propdata) <- c("n", "$\\mu_{\\bar{x}}$", "$\\sigma^2_{\\bar{x}}$", "$E(s^2
 pander(propdata)
 ```
 -------------------------------------------------------
- n   $\mu_{\bar{x}}$   $\sigma^2_{\bar{x}}$   $E(s^2)$ 
+ n   $\\mu_{\\bar{x}}$   $\\sigma^2_{\\bar{x}}$   $E(s^2)$ 
 --- ----------------- ---------------------- ----------
  5       0.3362              0.02264           0.1127  
 
