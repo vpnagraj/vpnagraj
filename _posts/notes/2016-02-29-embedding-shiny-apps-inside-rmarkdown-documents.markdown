@@ -7,6 +7,7 @@ excerpt: recap of how to make interactive rmarkdown documents
 tags: [r, shiny, rmarkodwn, rmd, interactive]
 image:
   feature:
+comments: true
 date: 2016-02-29T12:03:12-05:00
 ---
 
