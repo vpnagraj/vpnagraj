@@ -8,6 +8,7 @@ tags: [r, shiny, rmarkodwn, rmd, interactive]
 image:
   feature:
 comments: true
+share: false
 date: 2016-02-29T12:03:12-05:00
 ---
 
