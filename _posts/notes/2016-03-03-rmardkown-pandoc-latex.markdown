@@ -1,16 +1,16 @@
 ---
 layout: post
 title: LaTeX Symbols Inside Pandoc Table Column Headings Inside RMarkdown Documents
-modified: RMarkdown(Pandoc(LaTeX))
+modified: 
 categories: notes
-excerpt: R
+excerpt: RMarkdown(Pandoc(LaTeX))
 tags: [R, RMarkdown, LaTeX, Pandoc]
 image:
   feature:
 date: 2016-03-03T11:26:40-05:00
 ---
 
-In an effort to make a statisical report look ~~needlessly complex~~ **really awesome**, I just spent ~ 30 minutes figuring out how to include LaTeX symbols ... in a Pandoc table column header ... in an RMarkdown document. 
+In an effort to make a statisical report look needlessly complex (?) I just spent ~ 30 minutes figuring out how to include LaTeX symbols ... in a Pandoc table column header ... in an RMarkdown document. 
 
 Check out the code and example:
 
