@@ -9,6 +9,7 @@ image:
   feature:
 date: 2016-03-23T12:11:02-04:00
 share: false
+comments: true
 ---
 
 
@@ -45,7 +46,7 @@ install.packages(path_to_file, repos = NULL, type="source")
 
 The `path_to_file` referred to above will depend on where you've downloaded the source, and whether or not you're using a Windows or Unix/Mac operating system.
 
-On Windows the path is usually defined roughly as follows: "C:\\Users/Downloads/pbkrtest_0.4-6.tar.gz"
+On Windows the path is usually defined roughly as follows: "C:\\\Users/Downloads/pbkrtest_0.4-6.tar.gz"
 
 And on Unix/Mac it will be roughly: "~/Downloads/pbkrtest_0.4-6.tar.gz"
 
