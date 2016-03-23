@@ -3,7 +3,7 @@ layout: post
 title: Installing R Packages From Source
 modified:
 categories: notes
-excerpt:
+excerpt: using install.packages() to install package from source
 tags: [R, packages]
 image:
   feature:
