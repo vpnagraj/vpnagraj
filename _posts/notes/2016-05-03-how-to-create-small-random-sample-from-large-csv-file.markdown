@@ -10,8 +10,8 @@ image:
 date: 2016-05-03T12:19:11-04:00
 ---
 
->__TL;DR__
 > __Problem__: How do I generate a small random sample of large CSV to be read into R?
+
 > __Solution__: [subsample](https://github.com/paulgb/subsample)
 
 Staring at the stop sign in RStudio console window is a bummer. I've spent way too much time doing that while reading in large data sets. And of course there's the possibility of crashing the R session altogether ... sometimes simply exploring the data can be prohibitive.
@@ -42,7 +42,7 @@ Implemented in code:
 
 {% highlight python%}
 
-subsample -n 1000 purple.csv > purple_sampled.csv
+subsample -n 1000 purple.csv > purple_sample.csv
 
 {% endhighlight %}
 
