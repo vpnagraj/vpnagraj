@@ -26,7 +26,7 @@ I've found several solutions to this problem on [Stack Overflow](http://stackove
 
 `subsample` is a command line tool built with Python. As long as you have `pip` installed, you can use the following:
 
-{% highlight %}
+{% highlight python%}
 
 pip install subsample
 
@@ -40,7 +40,7 @@ The workflow is simple:
 
 Implemented in code:
 
-{% highlight %}
+{% highlight python%}
 
 subsample -n 1000 purple.csv > purple_sampled.csv
 
