@@ -3,7 +3,7 @@ layout: post
 title: How To Create Small Random Sample From Large CSV File
 modified:
 categories: notes
-excerpt: Subsampling
+excerpt: subsampling
 tags: [sample, random, R, Python]
 image:
   feature:
