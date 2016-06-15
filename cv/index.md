@@ -57,7 +57,8 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 ### Other
 
 - [Software Carpentry](http://software-carpentry.org/) Certified Instructor
-- Author of [rrefine OpenRefine API client R package](https://github.com/vpnagraj/rrefine) 
+- Author of [rrefine OpenRefine API client R package](https://github.com/vpnagraj/rrefine)
+- Author of [shinylist htmlwidget for making HTML lists with JavaScript via R](https://github.com/vpnagraj/shinylist) 
 - Consultant for [UVa DataFest 2016](https://github.com/vpnagraj/rrefine)
 - Contributor to [Getting Genetics Done](http://www.gettinggeneticsdone.com/)
 - Contributor to [DrupalPress](http://blog.hsl.virginia.edu/drupalpress/)
