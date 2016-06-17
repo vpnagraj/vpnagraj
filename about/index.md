@@ -10,4 +10,4 @@ share: false
 {% include _toc.html %}
 
 
-[cv](http://vpnagraj.github.io/cv/)
+[CV](http://vpnagraj.github.io/cv/)
