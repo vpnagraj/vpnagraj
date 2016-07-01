@@ -52,13 +52,16 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 - Markdown
 - JavaScript 
 - OpenRefine
+- Selenium
 - Tableau
 
 ### Other
 
+- Invited participant in [Hackout3](http://hackout3.ropensci.org/) open-source epidemiological software hackathon/conference
 - [Software Carpentry](http://software-carpentry.org/) Certified Instructor
 - Author of [rrefine OpenRefine API client R package](https://github.com/vpnagraj/rrefine)
-- Author of [shinylist htmlwidget for making HTML lists with JavaScript via R](https://github.com/vpnagraj/shinylist) 
+- Author of [shinylist htmlwidget for making HTML lists with JavaScript via R](https://github.com/vpnagraj/shinylist)
+- Co-Author of [epicontacts R package](https://github.com/hackout3/epicontacts/) 
 - Consultant for [UVa DataFest 2016](https://github.com/vpnagraj/rrefine)
 - Contributor to [Getting Genetics Done](http://www.gettinggeneticsdone.com/)
 - Contributor to [DrupalPress](http://blog.hsl.virginia.edu/drupalpress/)
@@ -86,6 +89,24 @@ Ragon, J., Nunemaker, M. and Nagraj, V.P. (2015, October). _A Mission Focused Ap
 [https://github.com/vpnagraj/meetup/tree/master/2015-04-21-sentiment-analysis](https://github.com/vpnagraj/meetup/tree/master/2015-04-21-sentiment-analysis)
 
 ### Teaching
+
+**Advanced Data Visualization with R**
+
+BioConnector Workshop Series–University of Virginia (June 2016)
+
+> This workshop will cover fundamental concepts for creating effective data visualization and will introduce tools and techniques for visualizing large, high-dimensional data using R. We will review fundamental concepts for visually displaying quantitative information, such as using series of small multiples, avoiding "chart-junk," and maximizing the data-ink ratio. After briefly covering data visualization using base R graphics, we will introduce the ggplot2 package for advanced high-dimensional visualization. We will cover the grammar of graphics (geoms, aesthetics, stats, and faceting), and using ggplot2 to create plots layer-by-layer. Upon completing this lesson, learners will be able to use ggplot2 to explore a high-dimensional dataset by faceting and scaling scatter plots in small multiples.
+
+**Advanced Data Manipulation with R**
+
+BioConnector Workshop Series–University of Virginia (June 2016)
+
+> Data analysis involves a large amount of janitor work - munging and cleaning data to facilitate downstream data analysis. This workshop is designed for those with a basic familiarity with R who want to learn tools and techniques for advanced data manipulation. It will cover data cleaning and "tidy data," and will introduce participants to R packages that enable data manipulation, analysis, and visualization using split-apply-combine strategies. Upon completing this lesson, participants will be able to use the dplyr package in R to effectively manipulate and conditionally compute summary statistics over subsets of a "big" dataset containing many observations.
+
+**R For Beginners**
+
+BioConnector Workshop Series–University of Virginia (April 2016)
+
+> This workshop is directed towards participants who have little or no experience with statistical computing or programming. R is an open source language that can be used for a variety of computational purposes. This class will introduce R in the context of its data manipulation and visualization capabilities. Via interactive demonstrations, students will learn the basics of creating variables, using functions, accessing documentation, loading packages, importing data and plotting.
 
 **BIMS 8382: Introduction to Biomedical Data Science** (Teaching Assistant)
 
