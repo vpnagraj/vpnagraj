@@ -84,31 +84,30 @@ Ragon, J., Nunemaker, M. and Nagraj, V.P. (2015, October). _A Mission Focused Ap
 ### Teaching
 
 - **Introduction to Git** 
+	
 	*Data Science Institute Bootcamp–University of Virginia (July 2016)*
 
 - **Advanced Data Visualization with R** 
+	
 	*BioConnector Workshop Series–University of Virginia (June 2016)*
 
 - **Advanced Data Manipulation with R**
+	
 	*BioConnector Workshop Series–University of Virginia (June 2016)*
 
-**R For Beginners**
+- **R For Beginners**
 
-BioConnector Workshop Series–University of Virginia (April 2016)
+	*BioConnector Workshop Series–University of Virginia (April 2016)*
 
-> This workshop is directed towards participants who have little or no experience with statistical computing or programming. R is an open source language that can be used for a variety of computational purposes. This class will introduce R in the context of its data manipulation and visualization capabilities. Via interactive demonstrations, students will learn the basics of creating variables, using functions, accessing documentation, loading packages, importing data and plotting.
+- **BIMS 8382: Introduction to Biomedical Data Science** (Teaching Assistant)
 
-**BIMS 8382: Introduction to Biomedical Data Science** (Teaching Assistant)
-
-University of Virginia (Spring 2016)
+	*University of Virginia (Spring 2016)*
 	
 > This course introduces methods, tools, and software for reproducibly managing, manipulating, analyzing, and visualizing large-scale biomedical data. Specifically, the course introduces the R statistical computing environment and packages for manipulating and visualizing high-dimensional data, covers strategies for reproducible research, and culminates with analysis of data from a real RNA-seq experiment using R and Bioconductor packages.
 
 **Reproducible Reporting: Generating Dynamic Documents with R+RStudio** (Teaching Assistant)
 
 BioConnector Workshop Series–University of Virginia (November 2015)
-
-> Contemporary life science is plagued by reproducibility issues. This workshop covers some of the barriers to reproducible research and how to start to address some of those problems during the data management and analysis phases of the research life cycle. In this workshop we will cover using R and dynamic document generation with RMarkdown and RStudio to weave together reporting text with executable R code to automatically generate reports in the form of PDF, Word, or HTML documents.
 
 **Building ‘Shiny’ Web Applications In R**
 
