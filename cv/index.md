@@ -10,9 +10,6 @@ share: false
 
 {% include _toc.html %}
 
-### Summary
-> I am a Research Data Analyst at the University of Virginia. My areas of focus are data preparation, academic computing pedagogy, bibliometric analysis and web application development.
-
 ### Education
 
 #### University of Virginia
@@ -86,17 +83,14 @@ Ragon, J., Nunemaker, M. and Nagraj, V.P. (2015, October). _A Mission Focused Ap
 
 ### Teaching
 
-- **Introduction to Git**: *Data Science Institute Bootcamp–University of Virginia (July 2016)*
+- **Introduction to Git** 
+	*Data Science Institute Bootcamp–University of Virginia (July 2016)*
 
-- **Advanced Data Visualization with R**: *BioConnector Workshop Series–University of Virginia (June 2016)*
+- **Advanced Data Visualization with R** 
+	*BioConnector Workshop Series–University of Virginia (June 2016)*
 
-> This workshop will cover fundamental concepts for creating effective data visualization and will introduce tools and techniques for visualizing large, high-dimensional data using R. We will review fundamental concepts for visually displaying quantitative information, such as using series of small multiples, avoiding "chart-junk," and maximizing the data-ink ratio. After briefly covering data visualization using base R graphics, we will introduce the ggplot2 package for advanced high-dimensional visualization. We will cover the grammar of graphics (geoms, aesthetics, stats, and faceting), and using ggplot2 to create plots layer-by-layer. Upon completing this lesson, learners will be able to use ggplot2 to explore a high-dimensional dataset by faceting and scaling scatter plots in small multiples.
-
-**Advanced Data Manipulation with R**
-
-BioConnector Workshop Series–University of Virginia (June 2016)
-
-> Data analysis involves a large amount of janitor work - munging and cleaning data to facilitate downstream data analysis. This workshop is designed for those with a basic familiarity with R who want to learn tools and techniques for advanced data manipulation. It will cover data cleaning and "tidy data," and will introduce participants to R packages that enable data manipulation, analysis, and visualization using split-apply-combine strategies. Upon completing this lesson, participants will be able to use the dplyr package in R to effectively manipulate and conditionally compute summary statistics over subsets of a "big" dataset containing many observations.
+- **Advanced Data Manipulation with R**
+	*BioConnector Workshop Series–University of Virginia (June 2016)*
 
 **R For Beginners**
 
