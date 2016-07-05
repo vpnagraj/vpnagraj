@@ -95,6 +95,10 @@ Ragon, J., Nunemaker, M. and Nagraj, V.P. (2015, October). _A Mission Focused Ap
 	
 	*BioConnector Workshop Series–University of Virginia (June 2016)*
 
+- **Building ‘Shiny’ Web Applications In R**
+
+	*BioConnector Workshop Series–University of Virginia (April 2016)*
+
 - **R For Beginners**
 
 	*BioConnector Workshop Series–University of Virginia (April 2016)*
@@ -102,66 +106,46 @@ Ragon, J., Nunemaker, M. and Nagraj, V.P. (2015, October). _A Mission Focused Ap
 - **BIMS 8382: Introduction to Biomedical Data Science** (Teaching Assistant)
 
 	*University of Virginia (Spring 2016)*
-	
-> This course introduces methods, tools, and software for reproducibly managing, manipulating, analyzing, and visualizing large-scale biomedical data. Specifically, the course introduces the R statistical computing environment and packages for manipulating and visualizing high-dimensional data, covers strategies for reproducible research, and culminates with analysis of data from a real RNA-seq experiment using R and Bioconductor packages.
 
-**Reproducible Reporting: Generating Dynamic Documents with R+RStudio** (Teaching Assistant)
+- **Reproducible Reporting: Generating Dynamic Documents with R+RStudio** (Teaching Assistant)
 
-BioConnector Workshop Series–University of Virginia (November 2015)
+	*BioConnector Workshop Series–University of Virginia (November 2015)*
 
-**Building ‘Shiny’ Web Applications In R**
+- **Building ‘Shiny’ Web Applications In R**
 
-StatLab Workshop Series–University of Virginia (October 2015)
+	*StatLab Workshop Series–University of Virginia (October 2015)*
 
-> Shiny is a framework for developing interactive, web-based tools with R. This workshop will cover how to create a basic user interface, add reactive widgets and publish a Shiny app. No web development experience is required. Some familiarity with R will be helpful.
+- **Workshop Series: Data Analysis, Manipulation, and Visualization with R** 
 
-**Workshop Series: Data Analysis, Manipulation, and Visualization with R** 
+	*BioConnector Workshop Series–University of Virginia (September 2015)*
 
-BioConnector Workshop Series–University of Virginia (September 2015)
+- **Data Carpentry** (Teaching Assistant)
 
-> This is a three-part series. The first session will introduce participants to the R environment and a dataset to be used for the remainder of the series. The two latter sessions will introduce participants to advanced data manipulation and visualization, using the same dataset introduced in the first session. This three-part workshop series will use a consistent example dataset for answering questions and completing exercises across all three sessions, culminating with a "capstone" analysis that integrates all covered material.
+	*James Madison University (July 2015)*
 
-**Data Carpentry** (Teaching Assistant)
+- **Introduction to Git** (Teaching Assistant)
 
-James Madison University (July 2015)
+	*Data Science Institute Bootcamp–University of Virginia (July 2015)*
 
-> This two-day workshop covers the analysis, computing and data management practices for genomics and bioinformatics research. Techniques taught include cloud storage (Amazon Web Services), data visualization (R Studio) and upstream analytic pipeline processes (BASH).
+- **Data Manipulation With Drupal** 
 
-**Introduction to Git** (Teaching Assistant)
+	*Claude Moore Health Sciences Library Drupal Workshop Series–University of Virginia (April 2015)*
 
-Data Science Institute Bootcamp–University of Virginia (July 2015)
+- **Dynamic Content Delivery With Drupal** 
 
-> This workshops aims to teach basics of version control with Git, including setup, installation, file tracking and syncing with remote repositories.
+	*Claude Moore Health Sciences Library Drupal Workshop Series–University of Virginia (April 2015)*
 
-**What Is Drupal?** 
+- **Building Functionality With Drupal** 
 
-Claude Moore Health Sciences Library Drupal Workshop Series–University of Virginia (April 2015)
+	*Claude Moore Health Sciences Library Drupal Workshop Series–University of Virginia (April 2015)*
 
-> This course serves as an introduction to managing content with the Drupal framework. Topics to be covered include module installation, the entity structure, creating content types and adding fields. While no web development experience is required, basic familiarity with content authoring is recommended.
+- **Managing Layout In Drupal** 
 
-**Managing Layout In Drupal** 
+	*Claude Moore Health Sciences Library Drupal Workshop Series–University of Virginia (April 2015)*
 
-Claude Moore Health Sciences Library Drupal Workshop Series–University of Virginia (April 2015)
+- **What Is Drupal?** 
 
-> The usability of content depends in large part on its layout. This, the second course in the Drupal Series, will explore basic methods for controlling layout elements in Drupal. The class will introduce the fundamentals of the block structure, the context module, the display suite module and basic theming elements. Attendance in the first Drupal Series session and/or some familiarity with managing web content is recommended.
-
-**Building Functionality With Drupal** 
-
-Claude Moore Health Sciences Library Drupal Workshop Series–University of Virginia (April 2015)
-
-> Drupal is designed to allow for automated actions based on events triggered by site users, content editors and the system itself. This workshop will cover site automation using the Rules module. Previous experience managing web content is recommended.
-
-**Dynamic Content Delivery With Drupal** 
-
-Claude Moore Health Sciences Library Drupal Workshop Series–University of Virginia (April 2015)
-
-> One of the strongest features of Drupal is its ability to group and deliver disparate content side-by-side. This course will introduce the Views module, which provides an interface to create highly customizable associations of pages, images, users, taxonomy terms and other entities. Previous experience managing web content is recommended.
-
-**Data Manipulation With Drupal** 
-
-Claude Moore Health Sciences Library Drupal Workshop Series–University of Virginia (April 2015)
-
-> Drupal implementations can extend well beyond simple content management — the framework has a number of contributed modules for importing, transforming and exporting data. This class will include demonstrations of the following modules: Feeds, Feeds XPath Parser and Views Data Export. Previous experience managing web content is recommended.
+	*Claude Moore Health Sciences Library Drupal Workshop Series–University of Virginia (April 2015)*
 
 ### Advanced Coursework & Education
 
