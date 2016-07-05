@@ -17,7 +17,7 @@ share: false
 
 #### University of Virginia
 
-BA: English and Art History
+Bachelor of Arts
 
 ### Experience
 
@@ -82,17 +82,13 @@ Ragon, J., Nunemaker, M. and Nagraj, V.P. (2015, October). _A Mission Focused Ap
 
 ### Presentations
 
-**Sentiment Analysis With R**
-
-*UVa / Charlottesville R User Group (April 2015)*
-
-[https://github.com/vpnagraj/meetup/tree/master/2015-04-21-sentiment-analysis](https://github.com/vpnagraj/meetup/tree/master/2015-04-21-sentiment-analysis)
+**Sentiment Analysis With R**: *UVa / Charlottesville R User Group (April 2015)*
 
 ### Teaching
 
-**Advanced Data Visualization with R**
+- **Introduction to Git**: *Data Science Institute Bootcamp–University of Virginia (July 2016)*
 
-BioConnector Workshop Series–University of Virginia (June 2016)
+- **Advanced Data Visualization with R**: *BioConnector Workshop Series–University of Virginia (June 2016)*
 
 > This workshop will cover fundamental concepts for creating effective data visualization and will introduce tools and techniques for visualizing large, high-dimensional data using R. We will review fundamental concepts for visually displaying quantitative information, such as using series of small multiples, avoiding "chart-junk," and maximizing the data-ink ratio. After briefly covering data visualization using base R graphics, we will introduce the ggplot2 package for advanced high-dimensional visualization. We will cover the grammar of graphics (geoms, aesthetics, stats, and faceting), and using ggplot2 to create plots layer-by-layer. Upon completing this lesson, learners will be able to use ggplot2 to explore a high-dimensional dataset by faceting and scaling scatter plots in small multiples.
 
@@ -117,8 +113,6 @@ University of Virginia (Spring 2016)
 **Reproducible Reporting: Generating Dynamic Documents with R+RStudio** (Teaching Assistant)
 
 BioConnector Workshop Series–University of Virginia (November 2015)
-
-> [http://bioconnector.org/workshops/ws-r-repres/](http://bioconnector.org/workshops/ws-r-repres/)
 
 > Contemporary life science is plagued by reproducibility issues. This workshop covers some of the barriers to reproducible research and how to start to address some of those problems during the data management and analysis phases of the research life cycle. In this workshop we will cover using R and dynamic document generation with RMarkdown and RStudio to weave together reporting text with executable R code to automatically generate reports in the form of PDF, Word, or HTML documents.
 
