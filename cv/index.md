@@ -150,7 +150,7 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 
 - **STAT 2120: Introduction To Statistical Analysis**
 
-	*University of Virginia (Spring 2015)
+	*University of Virginia (Spring 2015)*
 
 #### Non-Credit
 	
@@ -164,11 +164,11 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 
 - **Johns Hopkins Data Science Specialization**
 	
-	*Coursera (2014-2015)
+	*Coursera (2014-2015)*
 
 - **Teaching Software Carpentry** 
 
-	*University of Virginia (September 2014)
+	*University of Virginia (September 2014)*
 
 - **Red Hat System Administration I** 
 
