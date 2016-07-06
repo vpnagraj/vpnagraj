@@ -80,6 +80,7 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 ### Presentations
 
 - **Sentiment Analysis With R**
+
 	 *UVa / Charlottesville R User Group (April 2015)*
 
 ### Teaching
