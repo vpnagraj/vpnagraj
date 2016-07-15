@@ -31,7 +31,7 @@ Claude Moore Health Sciences Library–University of Virginia (2015-Present)
 
 Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 
-- Maintained dynamic and static content management, theming elements, search tools, permissions, contextual layouts, contact forms and all functionality on the [CMHSL website]: (https://www.hsl.virginia.edu)
+- Maintained dynamic and static content management, theming elements, search tools, permissions, contextual layouts, contact forms and all functionality on the CMHSL website: [https://www.hsl.virginia.edu](https://www.hsl.virginia.edu)
 - Programmed scripts for both internal and external analytics queries of library survey results, website traffic and UVa School of Medicine’s faculty publication metrics: [https://profiles.scholars.virginia.edu/](https://profiles.scholars.virginia.edu/)
 - Implemented search engine optimization strategies across a multi-site platform for the CMHSL Historical Collections department’s online exhibits: [https://exhibits.hsl.virginia.edu/](https://exhibits.hsl.virginia.edu/)
 
@@ -39,11 +39,11 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 
 - R 
 - Linux/Unix 
+- Git
+- Python  
+- Bash 
 - Drupal
 - WordPress
-- Python 
-- Git 
-- Bash 
 - PHP 
 - SQL 
 - Markdown
@@ -54,6 +54,7 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 
 ### Other
 
+- Organizer of [Charlottesville / UVa R Users Group](http://www.meetup.com/UVa-R-Users-Group/)
 - Invited participant to [Hackout3](http://hackout3.ropensci.org/) open-source epidemiological software hackathon/conference
 - [Software Carpentry](http://software-carpentry.org/) Certified Instructor
 - Author of [rrefine OpenRefine API client R package](https://github.com/vpnagraj/rrefine)
@@ -67,13 +68,13 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 
 ### Publications
 
-- Parker, A., Nagraj V.P. and Moody, D. (2014). Exit as Strategy: Web Services as the New Websites for Many Libraries In K. Varnum (Ed.), _The Top Technologies Every Librarian Needs to Know: A LITA Guide_ (pp. 67-84). Chicago, IL: ALA TechSource.
-
 - Nagraj, V.P and Nunemaker, M.S (2015) Analyzing Library Services Using Customer Relationship Managment Data and R Programming In S. Lessick (Ed.) "Enhancing library impact through technology". (2015). Journal of the Medical Library Association : JMLA, 103(4), 222–231. http://doi.org/10.3163/1536-5050.103.4.015
+
+- Parker, A., Nagraj V.P. and Moody, D. (2014). Exit as Strategy: Web Services as the New Websites for Many Libraries In K. Varnum (Ed.), _The Top Technologies Every Librarian Needs to Know: A LITA Guide_ (pp. 67-84). Chicago, IL: ALA TechSource.
 
 ### Conference Papers & Posters
 
-- Nagraj, V.P. and Denton, A. (2016, May). _Publication Metrics: Services & Support_. Poster to be presented at the Annual Meeting of the Medical Library Association, Toronto, CAN.
+- Nagraj, V.P. and Denton, A. (2016, May). _Publication Metrics: Services & Support_. Poster presented at the Annual Meeting of the Medical Library Association, Toronto, CAN.
 
 - Ragon, J., Nunemaker, M. and Nagraj, V.P. (2015, October). _A Mission Focused Approach to Liaison Services Data Collection_. Paper presented at the Annual Meeting of the Mid-Atlantic Chapter of the Medical Library Association, Asheville, NC.
 
