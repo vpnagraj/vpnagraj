@@ -45,12 +45,6 @@ With everything above in mind, here's the workflow that works for me:
 4. Run the R script
 
 {% highlight r %}
----
-title: "Publication Metrics"
-author: "Claude Moore Health Sciences Library"
-date: "July 14, 2016"
-output: pdf_document
----
 
 ```{r, setup, echo = FALSE}
 library(knitr)
