@@ -44,7 +44,7 @@ With everything above in mind, here's the workflow that works for me:
   3. Renders a PDF (using `rmarkdown::render()`) that is named accodring to the raw data file.
 4. Run the R script
 
-{% highlight%}
+{% highlight r %}
 ---
 title: "Publication Metrics"
 author: "VP Nagraj"
