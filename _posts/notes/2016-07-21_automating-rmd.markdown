@@ -45,50 +45,6 @@ With everything above in mind, here's the workflow that works for me:
 4. Run the R script
 
 {% highlight r %}
-
-```{r, setup, echo = FALSE}
-library(knitr)
-opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
-```
-
-
-```{r, load}
-library(ggplot2)
-library(readr)
-library(dplyr)
-library(tidyr)
-library(networkD3)
-```
-
-## Authorship Position
-
-```{r, authpos}
-
-pubs %>%
-    select(firstauthor:soloauthor) %>%
-    gather(key = pos, val) %>%
-    filter(!is.na(val)) %>%
-    group_by(pos) %>%
-    summarise(val = sum(val)) %>%
-    spread(pos, val) %>%
-    mutate(otherauthor = nrow(pubs) - (firstauthor + lastauthor + soloauthor)) %>%
-    rename(Middle = otherauthor, 
-        First = firstauthor, 
-        Last = lastauthor, 
-        Solo = soloauthor) %>%
-    gather(Position, n) %>%
-    ggplot(aes(reorder(Position, n), n)) +
-    geom_bar(stat = "identity") +
-    xlab("") +
-    ylab("Number of Articles") +
-    ggtitle("Distribution of Authorship Position for Department") +
-    coord_flip() +
-    theme_minimal()
-
-```
-{% endhighlight %}
-
-{% highlight r %}
 library(knitr)
 library(readr)
 library(dplyr)
