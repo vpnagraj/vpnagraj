@@ -1,0 +1,46 @@
+---
+layout: post
+title: chunking in R
+modified:
+categories: 
+excerpt:
+tags: [R]
+image:
+  feature:
+date: 2016-07-11T15:24:47-04:00
+---
+
+http://stackoverflow.com/questions/3318333/split-a-vector-into-chunks-in-r
+# chunk into size 500
+bigqueryindex <- 
+    split(seq(1,nrow(pubs)), ceiling(seq_along(seq(1,nrow(pubs)))/500))
+
+# get first author info from iteration through chunked pmids
+pubsfirstauthor <- vector()
+
+for (i in bigqueryindex) {
+pubsfirstauthor[unlist(i)] <- extract_from_esummary(entrez_summary(db = "pubmed", id = pubs$Proprietary.ID[unlist(i)]), 
+    elements = "sortfirstauthor", 
+    simplify = TRUE) 
+Sys.sleep(5)
+}
+
+pubs$firstauthor <- sapply(pubsfirstauthor, function(x) ifelse(is.null(x), NA, x))
+
+# get first author info from pmids
+# pubs$firstauthor <- extract_from_esummary(entrez_summary(db = "pubmed", id = pubs$Proprietary.ID), 
+#     elements = "sortfirstauthor", 
+#     simplify = TRUE) 
+
+
+# get last author info from iteration through chunked pmids
+pubslastauthor <- vector()
+
+for (i in bigqueryindex) {
+    pubslastauthor[unlist(i)] <- extract_from_esummary(entrez_summary(db = "pubmed", id = pubs$Proprietary.ID[unlist(i)]), 
+        elements = "lastauthor", 
+        simplify = TRUE) 
+    Sys.sleep(5)
+}
+
+pubs$lastauthor <- sapply(pubslastauthor, function(x) ifelse(is.null(x), NA, x))
