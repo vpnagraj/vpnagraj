@@ -3,7 +3,7 @@ layout: post
 title: networkD3
 modified:
 categories: notes
-excerpt:
+excerpt: interactive network visualiztion with D3 and R
 tags: [network analysis, D3, JavaScript, R, Shiny, long data]
 comments: true
 share: false
