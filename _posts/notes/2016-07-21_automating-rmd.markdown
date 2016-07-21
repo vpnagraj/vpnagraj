@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mulitple RMarkdown Reports, Multiple Data Sets, Single Script
+title: Mulitple RMarkdown Reports and Multiple Data Sets
 modified:
 categories: 
 excerpt: how to create "templated" rmarkdown reports
