@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mulitple RMarkdown Reports and Multiple Data Sets
+title: Multiple RMarkdown Reports, Multiple Data Sets, Single File
 modified:
 categories: 
 excerpt: how to create "templated" rmarkdown reports
@@ -39,10 +39,58 @@ With everything above in mind, here's the workflow that works for me:
 2. Check that data is prepared correctly (i.e. all columns are named the same, missing values are represented consistently)
 2. Write an RMarkdown file (first code block below) that is generic enough to work for each data set 
 3. Write an R script (second code block below) that:
-	1. Loops through the data folder
-	2. Creates an individual object (`pubs`) based on the given file in the loop 
-	3. Renders a PDF (using `rmarkdown::render()`) that is named accodring to the raw data file.
+  1. Loops through the data folder
+  2. Creates an individual object (`pubs`) based on the given file in the loop 
+  3. Renders a PDF (using `rmarkdown::render()`) that is named accodring to the raw data file.
 4. Run the R script
+
+{% highlight r %}
+---
+title: "Publication Metrics"
+author: "VP Nagraj"
+date: "July 14, 2016"
+output: pdf_document
+---
+
+```{r, setup, echo = FALSE}
+library(knitr)
+opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+```{r, load}
+library(ggplot2)
+library(readr)
+library(dplyr)
+library(tidyr)
+library(networkD3)
+```
+
+## Authorship Position
+
+```{r, authpos}
+
+pubs %>%
+    select(firstauthor:soloauthor) %>%
+    gather(key = pos, val) %>%
+    filter(!is.na(val)) %>%
+    group_by(pos) %>%
+    summarise(val = sum(val)) %>%
+    spread(pos, val) %>%
+    mutate(otherauthor = nrow(pubs) - (firstauthor + lastauthor + soloauthor)) %>%
+    rename(Middle = otherauthor, 
+        First = firstauthor, 
+        Last = lastauthor, 
+        Solo = soloauthor) %>%
+    gather(Position, n) %>%
+    ggplot(aes(reorder(Position, n), n)) +
+    geom_bar(stat = "identity") +
+    xlab("") +
+    ylab("Number of Articles") +
+    ggtitle("Distribution of Authorship Position for Department") +
+    coord_flip() +
+    theme_minimal()
+
+```
+{% endhighlight %}
 
 {% highlight r %}
 library(knitr)
