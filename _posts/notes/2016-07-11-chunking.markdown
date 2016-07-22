@@ -1,46 +1,57 @@
 ---
 layout: post
 title: chunking in R
-modified:
-categories: 
-excerpt:
-tags: [R]
+modified: 
+categories: notes
+excerpt: how to split data into chunks for processing in R
+tags: [R, NCBI, chunking]
 image:
   feature:
 date: 2016-07-11T15:24:47-04:00
 ---
 
+> **TL;DR** : "Chunking" a vector can facilitate processing or, as in the example below, serve as a solution for API query limits
+
+[E-Utilities](http://www.ncbi.nlm.nih.gov/books/NBK25500/) provides an intercace (API) for accessing NCBI databases such as PubMed, GenBank, etc. There are a variety of ways (clients) to leverage this service. Since I typically develop in R, I've been using the [**rentrez**](https://cran.r-project.org/web/packages/rentrez/vignettes/rentrez_tutorial.html) package.
+
+The API limits are typically pretty forgiving, and there are even [methods to store a "web history"](https://cran.r-project.org/web/packages/rentrez/vignettes/rentrez_tutorial.html#use-a-web_history-object) for search results so you don't have to query again to retrieve them.
+
+That said, I have encountered an issue with trying to harvest summary XML files for a list of > 1000 records.
+
+The workflow for retrieving these "esummary" documents is:
+
+1. Retrieve a list of IDs for your search term(s) with `entrez_search()`
+2. Use that list of IDs to retrieve summaries for each record
+3. Extract item(s) of interest from each summary
+
+
+
 http://stackoverflow.com/questions/3318333/split-a-vector-into-chunks-in-r
-# chunk into size 500
+
+{% highlight r %}
+
+library(rentrez)
+
+results <- entrez_search("pubmed", term = "zika", retmax = 10)
+
+# results <- entrez_search("pubmed", term = "zika", retmax = 9999)
+
+esummaries <- entrez_summary("pubmed", id = results$ids)
+
 bigqueryindex <- 
-    split(seq(1,nrow(pubs)), ceiling(seq_along(seq(1,nrow(pubs)))/500))
+    split(seq(1,length(results$ids)), ceiling(seq_along(seq(1,length(results$ids)))/500))
 
 # get first author info from iteration through chunked pmids
 pubsfirstauthor <- vector()
 
 for (i in bigqueryindex) {
-pubsfirstauthor[unlist(i)] <- extract_from_esummary(entrez_summary(db = "pubmed", id = pubs$Proprietary.ID[unlist(i)]), 
-    elements = "sortfirstauthor", 
-    simplify = TRUE) 
-Sys.sleep(5)
-}
-
-pubs$firstauthor <- sapply(pubsfirstauthor, function(x) ifelse(is.null(x), NA, x))
-
-# get first author info from pmids
-# pubs$firstauthor <- extract_from_esummary(entrez_summary(db = "pubmed", id = pubs$Proprietary.ID), 
-#     elements = "sortfirstauthor", 
-#     simplify = TRUE) 
-
-
-# get last author info from iteration through chunked pmids
-pubslastauthor <- vector()
-
-for (i in bigqueryindex) {
-    pubslastauthor[unlist(i)] <- extract_from_esummary(entrez_summary(db = "pubmed", id = pubs$Proprietary.ID[unlist(i)]), 
-        elements = "lastauthor", 
+    pubsfirstauthor[unlist(i)] <- extract_from_esummary(entrez_summary(db = "pubmed", id = pubs$Proprietary.ID[unlist(i)]), 
+        elements = "sortfirstauthor", 
         simplify = TRUE) 
     Sys.sleep(5)
 }
 
-pubs$lastauthor <- sapply(pubslastauthor, function(x) ifelse(is.null(x), NA, x))
+pubs$firstauthor <- sapply(pubsfirstauthor, function(x) ifelse(is.null(x), NA, x))
+
+
+{% endhighlight %}
