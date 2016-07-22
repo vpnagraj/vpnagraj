@@ -2,7 +2,7 @@
 layout: post
 title: Multiple RMarkdown Reports, Multiple Data Sets, Single File
 modified:
-categories: 
+categories: notes
 excerpt: how to create "templated" rmarkdown reports
 tags: [RMarkdown, R, loops]
 image:
