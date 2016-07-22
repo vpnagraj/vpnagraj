@@ -8,6 +8,8 @@ tags: [R, NCBI, chunking]
 image:
   feature:
 date: 2016-07-11T15:24:47-04:00
+comments: true
+share: false
 ---
 
 > **TL;DR** : "Chunking" a vector can facilitate processing or, as in the example below, serve as a solution for API query limits
@@ -60,13 +62,16 @@ results <- entrez_search("pubmed", term = "zika", retmax = 9999)
 bigqueryindex <- 
     split(seq(1,length(results$ids)), ceiling(seq_along(seq(1,length(results$ids)))/500))
 
+# create an empty list to hold summary contents
 esummaries <- list()
 
+# loop through the list of ids 500 at a time and pause for 5 seconds in between queries
 for (i in bigqueryindex) {
 esummaries[unlist(i)] <- entrez_summary("pubmed", id = results$ids[unlist(i)])
 Sys.sleep(5)
 }
 
+# apply over the list to extract the fulljournalname field from the esummary
 sapply(esummaries, function(x) extract_from_esummary(x, elements = "fulljournalname"))
 
 {% endhighlight %}
