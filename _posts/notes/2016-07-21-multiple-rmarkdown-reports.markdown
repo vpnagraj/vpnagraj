@@ -40,10 +40,10 @@ With everything above in mind, here's the workflow that works for me:
 2. Write an RMarkdown file (first code block below) that is generic enough to work for each data set 
 3. Write an R script (second code block below) that:
 
-  1. Loops through the data folder
-  2. Creates an individual object (`pubs`) based on the given file in the loop 
-  3. Renders a PDF (using `rmarkdown::render()`) that is named accodring to the raw data file.
-4. Run the R script
+    1. Loops through the data folder
+    2. Creates an individual object (`pubs`) based on the given file in the loop 
+    3. Renders a PDF (using `rmarkdown::render()`) that is named accodring to the raw data file.
+    4. Run the R script
 
 {% highlight r %}
 ---
