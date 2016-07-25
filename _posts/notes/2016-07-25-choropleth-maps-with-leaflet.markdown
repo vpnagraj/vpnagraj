@@ -12,10 +12,9 @@ comments: true
 share: false
 ---
 
-[Choropleth maps](https://en.wikipedia.org/wiki/Choropleth_map) are useful in displaying data across geographic regions[^1]. In these plots, the scale is represented by color and typically contained in defined spatial boundaries. 
+[Choropleth maps](https://en.wikipedia.org/wiki/Choropleth_map) are useful in displaying data across geographic regions. In these plots, the scale is represented by color and typically contained in defined spatial boundaries. 
 
 There are a number of ways to make choropleth visualizations in R, including the [**ggmap** package](http://rforpublichealth.blogspot.com/2015/10/mapping-with-ggplot-create-nice.html) and the [**choroplethr** package](https://cran.r-project.org/web/packages/choroplethr/index.html). 
-
 Both of the methods above seem to work fine. But I recently started using Leaflet, which is a JavaScript mapping library that's bound to R with the Leaflet pakcage. 
 
 A couple advantages to using Leaflet:
@@ -88,9 +87,9 @@ states@data <- left_join(states@data, uszika)
 
 {% endhighlight %}
 
-After the data have been prepared, onto the mapping ... 
+After the data have been prepared, onto the mapping ...
 
-First create a palette:
+First create a palette ...
 
 {% highlight r %}
 
@@ -100,7 +99,7 @@ pal <- colorNumeric(
 )
 
 {% endhighlight %}
-Then "popup" text to appear on hover.
+Then the "popup" text to appear on hover ...
 
 {% highlight r %}
 
@@ -115,13 +114,14 @@ Now the Leaflet map itself.
 {% highlight r %}
 
 leaflet(data = states) %>%
-	addTiles() %>%
+    addProviderTiles("OpenStreetMap.BlackAndWhite") %>%
     addPolygons(fillColor = ~pal(Zika.Cases), 
         fillOpacity = 0.8, 
         color = "#BDBDC3", 
         weight = 1,
         popup = casecountpopup) %>%
-    addLegend(position = "bottomleft",pal = pal, values = ~Zika.Cases, title = "<strong>USA Zika Cases</strong><br>(Week of 6/29/16)"
+    addLegend(position = "bottomleft",pal = pal, values = ~Zika.Cases, title = "<strong>USA Zika Cases</strong><br>(Week of 6/29/16)") %>%
+    setView(lat = 38.0110306, lng = -110.4080342, zoom = 3)
 
 {% endhighlight %}
 
