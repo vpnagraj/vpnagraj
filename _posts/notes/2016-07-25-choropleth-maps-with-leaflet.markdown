@@ -127,4 +127,4 @@ leaflet(data = states) %>%
 
 The choropleth map produced by the code above is [available here](http://apps.bioconnector.virginia.edu/interactive/zika.Rmd).
 
-The [**leaflet** documentation](https://rstudio.github.io/leaflet/) provides resources on how to further customize Leaflet maps. And [this tutorial](https://rpubs.com/walkerke/leaflet_choropleth) a similar workflow of how to create a Leaflet choropleth with R.
+The [**leaflet** documentation](https://rstudio.github.io/leaflet/) provides resources on how to further customize Leaflet maps. And [this tutorial](https://rpubs.com/walkerke/leaflet_choropleth) details a similar workflow for how to create a Leaflet choropleth with R.
