@@ -72,9 +72,8 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 
 ### Publications
 
-- Allen, A., Ko, T. and Nagraj V.P. (2016)"ILPPP Data Corner: National Mental Health Services Survey". Developments in Mental Health Law: The Institute of Law, Psychiatry & Public Policy — The University of Virginia, 35 (3), 20-26.
+- Allen, A., Ko, T. and Nagraj V.P. (2016)"ILPPP Data Corner: National Mental Health Services Survey Virginia Summary". Developments in Mental Health Law: The Institute of Law, Psychiatry & Public Policy — The University of Virginia, 35 (3), 20-26.
 
-Virginia Summary
 - Nagraj, V.P and Nunemaker, M.S (2015) Analyzing Library Services Using Customer Relationship Managment Data and R Programming In S. Lessick (Ed.) "Enhancing library impact through technology". (2015). Journal of the Medical Library Association : JMLA, 103(4), 222–231. http://doi.org/10.3163/1536-5050.103.4.015
 
 - Parker, A., Nagraj V.P. and Moody, D. (2014). Exit as Strategy: Web Services as the New Websites for Many Libraries In K. Varnum (Ed.), _The Top Technologies Every Librarian Needs to Know: A LITA Guide_ (pp. 67-84). Chicago, IL: ALA TechSource.
