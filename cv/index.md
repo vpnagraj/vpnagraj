@@ -51,15 +51,19 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 - OpenRefine
 - Selenium
 - Tableau
+- InDesign
+- Photoshop
 
 ### Other
 
 - Organizer of [Charlottesville / UVa R Users Group](http://www.meetup.com/UVa-R-Users-Group/)
 - Invited participant to [Hackout3](http://hackout3.ropensci.org/) open-source epidemiological software hackathon/conference
+- Member of [R Epidemics Consortium (RECON)](http://www.repidemicsconsortium.org/)
 - [Software Carpentry](http://software-carpentry.org/) Certified Instructor
+- [Data Carpentry](http://www.datacarpentry.org/) Certified Instructor
 - Author of [rrefine OpenRefine API client R package](https://github.com/vpnagraj/rrefine)
 - Author of [shinylist htmlwidget for making HTML lists with JavaScript via R](https://github.com/vpnagraj/shinylist)
-- Co-Author of [epicontacts R package](https://github.com/hackout3/epicontacts/) 
+- Co-Author of [epicontacts R package](https://github.com/hackout3/epicontacts/)
 - Consultant for [UVa DataFest 2016](https://github.com/vpnagraj/rrefine)
 - Contributor to [Getting Genetics Done](http://www.gettinggeneticsdone.com/)
 - Contributor to [DrupalPress](http://blog.hsl.virginia.edu/drupalpress/)
@@ -68,67 +72,76 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 
 ### Publications
 
+- Allen, A., Ko, T. and Nagraj V.P. (2016)"ILPPP Data Corner: National Mental Health Services Survey". Developments in Mental Health Law: The Institute of Law, Psychiatry & Public Policy — The University of Virginia, 35 (3), 20-26.
+
+Virginia Summary
 - Nagraj, V.P and Nunemaker, M.S (2015) Analyzing Library Services Using Customer Relationship Managment Data and R Programming In S. Lessick (Ed.) "Enhancing library impact through technology". (2015). Journal of the Medical Library Association : JMLA, 103(4), 222–231. http://doi.org/10.3163/1536-5050.103.4.015
 
 - Parker, A., Nagraj V.P. and Moody, D. (2014). Exit as Strategy: Web Services as the New Websites for Many Libraries In K. Varnum (Ed.), _The Top Technologies Every Librarian Needs to Know: A LITA Guide_ (pp. 67-84). Chicago, IL: ALA TechSource.
 
 ### Conference Papers & Posters
 
+- Nagraj, V.P. and Denton, A. (2016, October). _Publication Metrics: Services & Support_. Poster presented at the NIH Bibliometrics & Research Assessment: A Symposium for Librarians & Information Professionals, Washington, DC.
+
+- Nagraj, V.P. Son, I.K. and Denton, A. (2016, October). _Data or Not: Evaluating Interest In Library Workshop Content:_. Poster presented at the Tri-Chapter Meeting of the Mid-Atlantic Chapter, New York-New Jersey Chapter and Philadelphia Chapter of the Medical Library Association, Philadelphia, PA.
+
 - Nagraj, V.P. and Denton, A. (2016, May). _Publication Metrics: Services & Support_. Poster presented at the Annual Meeting of the Medical Library Association, Toronto, CAN.
 
 - Ragon, J., Nunemaker, M. and Nagraj, V.P. (2015, October). _A Mission Focused Approach to Liaison Services Data Collection_. Paper presented at the Annual Meeting of the Mid-Atlantic Chapter of the Medical Library Association, Asheville, NC.
 
-### Presentations
-
-- **Sentiment Analysis With R**
-
-	 *UVa / Charlottesville R User Group (April 2015)*
-
 ### Teaching
+
+- **BIMS 8382: Introduction to Biomedical Data Science**
+	
+	*University of Virginia (Spring 2017)*
+
+	*University of Virginia (Spring 2016)*
 
 - **Introduction to Git** 
 	
 	*Data Science Institute Bootcamp–University of Virginia (July 2016)*
 
+- **Harvesting Data from NCBI**
+	
+	*BioConnector Workshop Series–University of Virginia (November 2016)*
+
+- **Manipulating List Objects in R**
+	
+	*StatLab Workshop Series–University of Virginia (November 2016)*
+
+- **Interactive Visualization with Javascript and R**
+	
+	*StatLab Workshop Series–University of Virginia (October 2016)*
+
+- **Reproducible Reporting: Generating Dynamic Documents with R+RStudio**
+
+	*BioConnector Workshop Series–University of Virginia (October 2016)*
+
 - **Advanced Data Visualization with R** 
 	
+	*BioConnector Workshop Series–University of Virginia (October 2016)*
+
 	*BioConnector Workshop Series–University of Virginia (June 2016)*
 
 - **Advanced Data Manipulation with R**
 	
+	*BioConnector Workshop Series–University of Virginia (September 2016)*
+
 	*BioConnector Workshop Series–University of Virginia (June 2016)*
 
-- **Building ‘Shiny’ Web Applications In R**
-
-	*BioConnector Workshop Series–University of Virginia (April 2016)*
-
 - **R For Beginners**
+	
+	*BioConnector Workshop Series–University of Virginia (September 2016)*
 
 	*BioConnector Workshop Series–University of Virginia (April 2016)*
 
-- **BIMS 8382: Introduction to Biomedical Data Science** (Teaching Assistant)
-
-	*University of Virginia (Spring 2016)*
-
-- **Reproducible Reporting: Generating Dynamic Documents with R+RStudio** (Teaching Assistant)
-
-	*BioConnector Workshop Series–University of Virginia (November 2015)*
-
 - **Building ‘Shiny’ Web Applications In R**
+	
+	*StatLab Workshop Series–University of Virginia (September 2016)*
+
+	*BioConnector Workshop Series–University of Virginia (April 2016)*
 
 	*StatLab Workshop Series–University of Virginia (October 2015)*
-
-- **Workshop Series: Data Analysis, Manipulation, and Visualization with R** 
-
-	*BioConnector Workshop Series–University of Virginia (September 2015)*
-
-- **Data Carpentry** (Teaching Assistant)
-
-	*James Madison University (July 2015)*
-
-- **Introduction to Git** (Teaching Assistant)
-
-	*Data Science Institute Bootcamp–University of Virginia (July 2015)*
 
 - **Drupal Series: Introduction, Layout, Advanced Functionality and Web Services**
 	
