@@ -22,7 +22,7 @@ The gist is that you need to set the both panel and *and* plot backgrounds to tr
 
 And when saving the plot with `ggsave()` you also should indicate that the background is transparent.
 
-{% endhighlight %}
+{% highlight r %}
 
 library(ggplot2)
 data("airquality")
