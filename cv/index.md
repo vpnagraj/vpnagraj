@@ -18,41 +18,52 @@ Bachelor of Arts
 
 ### Experience
 
+#### Research Computing Associate
+
+School of Medicine Research Computing–University of Virginia (2016-Present)
+
+- Collaborate with clinical and basic science research teams to manipulate, model and analyze biomedical data
+- Offer data analysis services and technical support for users of high-performance computing systems, including local institutional clusters as well as cloud solutions like Amazon Web Services
+- Develop and teach free workshops and for-credit course material covering basic programming, analysis techniques and visualization tools
+- Coordinate and promote outreach activities, like the weekly Code Review meetup and the UVa R Users Group
+
 #### Research Data Analyst
 
-Claude Moore Health Sciences Library–University of Virginia (2015-Present)
+Claude Moore Health Sciences Library–University of Virginia (2015-2016)
 
-- Provide individual consultations for researchers regarding programmatic data preparation, visualization and analysis techniques: [https://www.bioconnector.virginia.edu/dash](https://www.bioconnector.virginia.edu/dash)
-- Prepare course material and teach workshops covering a variety of biomedical data science topics
-- Research and develop bibliometric data analysis strategies, including modeling grant proposal abstracts, mining full text of journal articles and benchmarking inter-institutional co-authorships
-- Coordinate and promote collaborative programming activities, like the weekly Code Review meetup
+- Provided individual consultations for researchers regarding programmatic data preparation, visualization and analysis techniques
+- Prepared course material and taught workshops covering a variety of biomedical data science topics
+- Researched and developed bibliometric data analysis strategies, including modeling grant proposal abstracts, mining full text of journal articles and benchmarking inter-institutional co-authorships
+- Hired and trained graduate student employees to support existing workshop activities as well as create new material
+
 
 #### Web Developer
 
 Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 
-- Maintained dynamic and static content management, theming elements, search tools, permissions, contextual layouts, contact forms and all functionality on the CMHSL website: [https://www.hsl.virginia.edu](https://www.hsl.virginia.edu)
-- Programmed scripts for both internal and external analytics queries of library survey results, website traffic and UVa School of Medicine’s faculty publication metrics: [https://profiles.scholars.virginia.edu/](https://profiles.scholars.virginia.edu/)
-- Implemented search engine optimization strategies across a multi-site platform for the CMHSL Historical Collections department’s online exhibits: [https://exhibits.hsl.virginia.edu/](https://exhibits.hsl.virginia.edu/)
+- Maintained dynamic and static content management, theming elements, search tools, permissions, contextual layouts, contact forms and all functionality on the CMHSL website
+- Programmed scripts for both internal and external analytics queries of library survey results, website traffic and UVa School of Medicine’s faculty publication metrics
+- Implemented search engine optimization strategies across a multi-site platform for the CMHSL Historical Collections department’s online exhibits
 
 ### Languages & Software
 
 - R 
-- Linux/Unix 
 - Git
 - Python  
 - Bash 
-- Drupal
-- WordPress
 - PHP 
 - SQL 
 - Markdown
 - JavaScript 
+- AWS
+- Spark
 - OpenRefine
 - Selenium
 - Tableau
 - InDesign
 - Photoshop
+- Drupal
+- WordPress
 
 ### Other
 
@@ -78,7 +89,13 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 
 - Parker, A., Nagraj V.P. and Moody, D. (2014). Exit as Strategy: Web Services as the New Websites for Many Libraries In K. Varnum (Ed.), _The Top Technologies Every Librarian Needs to Know: A LITA Guide_ (pp. 67-84). Chicago, IL: ALA TechSource.
 
-### Conference Papers & Posters
+### Conference Papers, Posters & Presentations
+
+- Kim B.D., Nagraj, V.P. Zaidi, H. and Magee, N. (2017, February). _SOM Research Computing_. Poster presented at the 2017 School of Medicine Faculty Research Retreat, Charlottesville, VA.
+
+- Folsom, T., Nagraj, V.P. and Ragon, B. (2017, February). _Evaluating BioConnector Workshops_. Poster presented at the 2017 School of Medicine Faculty Research Retreat, Charlottesville, VA.
+
+- Nagraj, V.P. and Denton, A. (2016, October). _Publication Metrics: Services & Support_. Poster presented at the NIH Bibliometrics & Research Assessment: A Symposium for Librarians & Information Professionals, Washington, DC.
 
 - Nagraj, V.P. and Denton, A. (2016, October). _Publication Metrics: Services & Support_. Poster presented at the NIH Bibliometrics & Research Assessment: A Symposium for Librarians & Information Professionals, Washington, DC.
 
@@ -95,6 +112,10 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 	*University of Virginia (Spring 2017)*
 
 	*University of Virginia (Spring 2016)*
+
+- **Introduction to the Command Line**
+
+	*BioConnector Workshop Series–University of Virginia (January 2017)*
 
 - **Introduction to Git** 
 	
@@ -118,11 +139,17 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 
 - **Advanced Data Visualization with R** 
 	
+	*StatLab Workshop Series–University of Virginia (March 2017)*
+	
+	*BioConnector Workshop Series–University of Virginia (February 2017)*
+	
 	*BioConnector Workshop Series–University of Virginia (October 2016)*
 
 	*BioConnector Workshop Series–University of Virginia (June 2016)*
 
 - **Advanced Data Manipulation with R**
+	
+	*BioConnector Workshop Series–University of Virginia (February 2017)*
 	
 	*BioConnector Workshop Series–University of Virginia (September 2016)*
 
@@ -130,11 +157,15 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 
 - **R For Beginners**
 	
+	*BioConnector Workshop Series–University of Virginia (January 2017)*
+	
 	*BioConnector Workshop Series–University of Virginia (September 2016)*
 
 	*BioConnector Workshop Series–University of Virginia (April 2016)*
 
 - **Building ‘Shiny’ Web Applications In R**
+	
+	*BioConnector Workshop Series–University of Virginia (April 2017)*
 	
 	*StatLab Workshop Series–University of Virginia (September 2016)*
 
