@@ -36,7 +36,6 @@ Claude Moore Health Sciences Library–University of Virginia (2015-2016)
 - Researched and developed bibliometric data analysis strategies, including modeling grant proposal abstracts, mining full text of journal articles and benchmarking inter-institutional co-authorships
 - Hired and trained graduate student employees to support existing workshop activities as well as create new material
 
-
 #### Web Developer
 
 Claude Moore Health Sciences Library–University of Virginia (2012-2015)
@@ -94,6 +93,8 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 - Kim B.D., Nagraj, V.P. Zaidi, H. and Magee, N. (2017, February). _SOM Research Computing_. Poster presented at the 2017 School of Medicine Faculty Research Retreat, Charlottesville, VA.
 
 - Folsom, T., Nagraj, V.P. and Ragon, B. (2017, February). _Evaluating BioConnector Workshops_. Poster presented at the 2017 School of Medicine Faculty Research Retreat, Charlottesville, VA.
+
+- Aherrahrou, R., Chen, L., Asby, N., Nagraj, V.P., Hinkle, J. and Civelek, M. (2016, October). _Integrative genetics of vascular smooth muscle cell phenotypes_. Poster presented at 19th International Vascular Biology Meeting, Boston, MA.
 
 - Nagraj, V.P. and Denton, A. (2016, October). _Publication Metrics: Services & Support_. Poster presented at the NIH Bibliometrics & Research Assessment: A Symposium for Librarians & Information Professionals, Washington, DC.
 
@@ -179,8 +180,6 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 
 ### Advanced Coursework & Education
 
-#### Credit
-
 - **STAT 3080: From Data To Knowledge**
 
 	*University of Virginia (Spring 2016)*
@@ -196,8 +195,6 @@ Claude Moore Health Sciences Library–University of Virginia (2012-2015)
 - **STAT 2120: Introduction To Statistical Analysis**
 
 	*University of Virginia (Spring 2015)*
-
-#### Non-Credit
 	
 - **Introduction to Data Mining and Machine Learning**
 
